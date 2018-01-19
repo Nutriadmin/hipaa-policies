@@ -1,24 +1,18 @@
 # 3. Policy Management Policy
 
-Datica implements policies and procedures to maintain compliance and integrity of data. The Security Officer and Privacy Officer are responsible for maintaining policies and procedures and assuring all Datica workforce members, business associates, customers, and partners are adherent to all applicable policies. Previous versions of policies are retained to assure ease of finding policies at specific historic dates in time.
+NutriAdmin implements policies and procedures to maintain compliance and integrity of data. The Security Officer and Privacy Officer are responsible for maintaining policies and procedures and assuring all NutriAdmin workforce members, business associates, customers, and partners are adherent to all applicable policies. Previous versions of policies are retained to assure ease of finding policies at specific historic dates in time.
 
-## 3.1 Applicable Standards
-
-### 3.1.1 Applicable Standards from the HITRUST Common Security Framework
-
-* 12.c - Developing and Implementing Continuity Plans Including Information Security
-
-### 3.1.2 Applicable Standards from the HIPAA Security Rule
+## 3.1 Applicable Standards from the HIPAA Security Rule
 
 * 164.316(a) - Policies and Procedures
 * 164.316(b)(1)(i) - Documentation
 
 ## 3.2 Maintenance of Policies
 
-1. All policies are stored and up to date to maintain Datica compliance with HIPAA, HITRUST, NIST, and other relevant standards. Updates and version control are done similar to source code control.
+1. All policies are stored and up to date to maintain NutriAdmin compliance with HIPAA, and other relevant standards. Updates and version control are done similar to source code control.
 2. Policy update requests can be made by any workforce member at any time. Furthermore, all policies are reviewed annually by both the Security and Privacy Officer to assure they are accurate and up-to-date.
-3. Datica employees may request changes to policies using the following process:
-  1. The Datica employee initiates a policy change request by creating an Issue in the JIRA Compliance Review Activity (CRA) project. The change request may optionally include a GitHub pull request from a separate branch or repository containing the desired changes.
+3. NutriAdmin employees may request changes to policies using the following process:
+  1. The NutriAdmin employee initiates a policy change request by creating an Issue in the JIRA Compliance Review Activity (CRA) project. The change request may optionally include a GitHub pull request from a separate branch or repository containing the desired changes.
   2. The Security Officer or the Privacy Officer is assigned to review the policy change request.
   3. Once the review is completed, the Security Officer or Privacy Officer approves or rejects the Issue. If the Issue is rejected, it goes back for further review and documentation.
   4. If the review is approved, the Security Officer or Privacy Officer then marks the Issue as Done, adding any pertinent notes required.
