@@ -25,3 +25,4 @@ Violation of this policy and its procedures by workforce members may result in c
    * Where backup stored (or to whom it was provided)
 5. Securely encrypt stored backups in a manner that protects them from loss or environmental damage.
 6. Test backups and document that files have been completely and accurately restored from the backup media every quarter. Results from these tests are recorded on the Data Management Policy Compliance spreadsheet to keep track of compliance with this policy.
+7. Monitor once a month that backups have been generated appropriately and track this activity on the Data Management Policy Compliance spreadsheet
