@@ -29,11 +29,11 @@ NutriAdmin implements policies and procedures to maintain compliance and integri
     4. Once the review is completed, the Security Officer or Privacy Officer approves or rejects the Task. If the Task is rejected, it goes back for further review and documentation.
     5. If the review is approved, the Security Officer or Privacy Officer then marks the Task as Done, adding any pertinent notes required.
     6. Policy review is monitored on a quarterly basis using the Compliance Review Activity (CRA) spreadsheet to assess compliance with above policy.
-7. NutriAdmin utilizes the HITRUST MyCSF framework to track compliance with the HITRUST CSF on an annual basis. NutriAdmin also tracks compliance with HIPAA and publishes results at [https://hipaa.datica.com](https://hipaa.datica.com). In order to track and measure adherence on an annual basis, Datica uses the following process to track HITRUST audits, both full and interim:
-  1. The Security Officer initiates the HITRUST audit activity by creating an Issue in the JIRA Compliance Review Activity (CRA) project.
-  2. The Security Officer or the Privacy Officer is assigned to own and manage the HITRUST activity.
-  3. Once the HITRUST activity is completed, the Security Officer approves or rejects the Issue.
-  5. If the review is approved, the Security Officer then marks the Issue as Done, adding any pertinent notes required.
-  6. Compliance with annual compliance assessments, utilizing the HITRUST CSF as a framework, is monitored on a quarterly basis using JIRA reporting to assess compliance with above policy.
+7. NutriAdmin tracks compliance with HIPAA and publishes results at [https://nutriadmin.com/hipaa](https://nutriadmin.com/hipaa). In order to track and measure adherence on an annual basis, NutriAdmin uses the following process to track HIPAA audits, both full and interim:
+    1. The Security Officer initiates the HIPAA audit activity by recording a Task in the Compliance Review Activity (CRA) spreadsheet.
+    2. The Security Officer or the Privacy Officer is assigned to own and manage the HIPAA activity.
+    3. Once the HIPAA activity is completed, the Security Officer approves or rejects the Task.
+    4. If the review is approved, the Security Officer then marks the Task as Done, adding any pertinent notes required.
+    5. Compliance with annual compliance assessments is monitored on a quarterly basis using the Compliance Review Activity (CRA) spreadsheet to assess compliance with above policy.
 
 Additional documentation related to maintenance of policies is outlined in [§5.3.1](#5.3-security-officer).
