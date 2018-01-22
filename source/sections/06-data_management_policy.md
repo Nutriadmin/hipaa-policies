@@ -6,9 +6,7 @@ Data backup is an important part of the day-to-day operations of NutriAdmin. To 
 
 Violation of this policy and its procedures by workforce members may result in corrective disciplinary action, up to and including termination of employment.
 
-## 6.1 Applicable Standards
-
-### 6.1.2 Applicable Standards from the HIPAA Security Rule
+## 6.1 Applicable Standards from the HIPAA Security Rule
 
 * 164.308(a)(7)(ii)(A) - Data Backup Plan
 * 164.310(d)(2)(iii) - Accountability
