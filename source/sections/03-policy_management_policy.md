@@ -12,25 +12,24 @@ NutriAdmin implements policies and procedures to maintain compliance and integri
 1. All policies are stored and up to date to maintain NutriAdmin compliance with HIPAA, and other relevant standards. Updates and version control are done similar to source code control.
 2. Policy update requests can be made by any workforce member at any time. Furthermore, all policies are reviewed annually by both the Security and Privacy Officer to assure they are accurate and up-to-date.
 3. NutriAdmin employees may request changes to policies using the following process:
-  1. The NutriAdmin employee initiates a policy change request by creating an Issue in the JIRA Compliance Review Activity (CRA) project. The change request may optionally include a GitHub pull request from a separate branch or repository containing the desired changes.
-  2. The Security Officer or the Privacy Officer is assigned to review the policy change request.
-  3. Once the review is completed, the Security Officer or Privacy Officer approves or rejects the Issue. If the Issue is rejected, it goes back for further review and documentation.
-  4. If the review is approved, the Security Officer or Privacy Officer then marks the Issue as Done, adding any pertinent notes required.
-  5. If the policy change requires technical modifications to production systems, those changes are carried out by authorized personnel using Datica's [change management process (§9.4)](#9.4-changing-existing-systems).
-4. All policies are made accessible to all Datica workforce members. The current master policies are published at [https://policy.datica.com](https://policy.datica.com).
-   * Changes are automatically communicated to all Datica team members through integrations between GitHub and Slack that log all GitHub policy channels to a dedicated Datica Slack Channel.
-   * The Security Officer also communicates policy changes to all employees via email. These emails include a high-level description of the policy change using terminology appropriate for the target audience.
+    1. The NutriAdmin employee initiates a policy Change Request by sending an email detailing the proposed change to the Security Officer or to the Privacy Officer. The Change Request may optionally include a GitHub pull request from a separate branch or repository containing the desired changes.
+    2. The Security Officer or the Privacy Officer is assigned to review the policy Change Request.
+    3. Once the review is completed, the Security Officer or Privacy Officer approves or rejects the Change Request. If the Change Request is rejected, it goes back for further review and documentation.
+    4. If the review is approved, the Security Officer or Privacy Officer implements the Change Request to the policy or assigns an authorized employee to publish the changes. The Security Officer or Privacy officer may add any pertinent notes required.
+    5. If the policy change requires technical modifications to production systems, those changes are carried out by authorized personnel using NutriAdmin's [change management process (§9.4)](#9.4-changing-existing-systems).
+4. All policies are made accessible to all NutriAdmin workforce members. The current master policies are published at [https://nutriadmin.com/policy](https://nutriadmin.com/policy).
+   * The Security Officer communicates policy changes to all employees via email. These emails include a high-level description of the policy change using terminology appropriate for the target audience plus a link to the Github repository where the employees can see the changes in detail.
 5. All policies, and associated documentation, are retained for 6 years from the date of its creation or the date when it last was in effect, whichever is later
-   1. Version history of all Datica policies is done via GitHub.
-   2. Backup storage of all policies is done with Box.
-6. The policies and information security policies are reviewed and audited annually, or after significant changes occur to Datica's organizational environment. Issues that come up as part of this process are reviewed by Datica management to assure all risks and potential gaps are mitigated and/or fully addressed. The process for reviewing polices is outlined below:
-  1. The Security Officer initiates the policy review by creating an Issue in the JIRA Compliance Review Activity (CRA) project.
-  2. The Security Officer or the Privacy Officer is assigned to review the current Datica policies ([https://policy.datica.com/](https://policy.datica.com/)).
-  3. If changes are made, the above process is used. All changes are documented in the Issue.
-  4. Once the review is completed, the Security Officer or Privacy Officer approves or rejects the Issue. If the Issue is rejected, it goes back for further review and documentation.
-  5. If the review is approved, the Security Officer or Privacy Officer then marks the Issue as Done, adding any pertinent notes required.
-  6. Policy review is monitored on a quarterly basis using JIRA reporting to assess compliance with above policy.
-7. Datica utilizes the HITRUST MyCSF framework to track compliance with the HITRUST CSF on an annual basis. Datica also tracks compliance with HIPAA and publishes results at [https://hipaa.datica.com](https://hipaa.datica.com). In order to track and measure adherence on an annual basis, Datica uses the following process to track HITRUST audits, both full and interim:
+   1. Version history of all NutriAdmin policies is done via GitHub.
+   2. Backup storage of all policies is done with Bitbucket.
+6. The policies and information security policies are reviewed and audited annually, or after significant changes occur to NutriAdmin's organizational environment. Issues that come up as part of this process are reviewed by NutriAdmin management to assure all risks and potential gaps are mitigated and/or fully addressed. The process for reviewing polices is outlined below:
+    1. The Security Officer initiates the policy review by recording a Task in the Compliance Review Activity (CRA) spreadsheet.
+    2. The Security Officer or the Privacy Officer is assigned to review the current NutriAdmin policies ([https://nutriadmin.com/policy/](https://nutriadmin.com/policy/)).
+    3. If changes are made, the above process is used. All changes are documented in the Task.
+    4. Once the review is completed, the Security Officer or Privacy Officer approves or rejects the Task. If the Task is rejected, it goes back for further review and documentation.
+    5. If the review is approved, the Security Officer or Privacy Officer then marks the Task as Done, adding any pertinent notes required.
+    6. Policy review is monitored on a quarterly basis using the Compliance Review Activity (CRA) spreadsheet to assess compliance with above policy.
+7. NutriAdmin utilizes the HITRUST MyCSF framework to track compliance with the HITRUST CSF on an annual basis. NutriAdmin also tracks compliance with HIPAA and publishes results at [https://hipaa.datica.com](https://hipaa.datica.com). In order to track and measure adherence on an annual basis, Datica uses the following process to track HITRUST audits, both full and interim:
   1. The Security Officer initiates the HITRUST audit activity by creating an Issue in the JIRA Compliance Review Activity (CRA) project.
   2. The Security Officer or the Privacy Officer is assigned to own and manage the HITRUST activity.
   3. Once the HITRUST activity is completed, the Security Officer approves or rejects the Issue.
