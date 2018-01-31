@@ -4,6 +4,6 @@ NutriAdmin utilizes a suite of approved software tools for internal use by workf
 
 ## 20.1 List of Approved Tools
 
-* **Bitbucket**. Bitbucket is an open source tool built on top of Git, the version control platform. Bitbucket is hosted and secured by Datica. It is utilized for storage of configuration scripts and other infrastructure automation tools, as well as for source and version control of application code used by Datica.
-* **G Suite**. G Suite is used for email, calendar, and document collaboration.
-* **Azure**. G Suite is used for email, calendar, and document collaboration.
+* **G Suite**. G Suite is provided, secured, and hosted by Google. G Suite is used for email, calendar, and document collaboration in NutriAdmin.
+* **Visual Studio Team Services**. Visual Studio Team Services (VSTS for short) is a team collaboration tool provided by Microsoft. VSTS allows software teams to plan their work together, and it provides a Git code version control platform. VSTS is hosted and secured by Microsoft. It is utilized for storage of configuration scripts and other infrastructure automation tools, as well as for source and version control of application code used by NutriAdmin.
+* **Microsoft Azure**. Microsoft Azure is used to host NutriAdmin's application code, databases, backups, and other infrastructure needed to run NutriAdmin's software.
