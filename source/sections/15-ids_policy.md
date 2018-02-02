@@ -1,16 +1,8 @@
 # 15. IDS Policy
 
-In order to preserve the integrity of data that Datica stores, processes, or transmits for Customers, Datica implements strong intrusion detection tools and policies to proactively track and retroactively investigate unauthorized access. Datica currently utilizes [OSSEC](http://www.ossec.net/) to track file system integrity, monitor log data, and detect rootkit access.
+In order to preserve the integrity of data that NutriAdmin stores, processes, or transmits for Customers, NutriAdmin implements strong intrusion detection tools and policies to proactively track and retroactively investigate unauthorized access. NutriAdmin currently utilizes [OSSEC](http://www.ossec.net/) to track file system integrity, monitor log data, and detect rootkit access.
 
-## 15.1 Applicable Standards
-
-### 15.1.1 Applicable Standards from the HITRUST Common Security Framework
-
-* 09.ab - Monitoring System Use
-* 06.e - Prevention of Misuse of Information
-* 10.h - Control of Operational Software
-
-### 15.1.2 Applicable Standards from the HIPAA Security Rule
+## 15.1 Applicable Standards from the HIPAA Security Rule
 
 * 164.312(b) - Audit Controls
 
