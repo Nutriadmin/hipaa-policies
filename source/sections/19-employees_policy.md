@@ -23,13 +23,13 @@ NutriAdmin is committed to ensuring all workforce members actively address secur
    * Current NutriAdmin training is hosted at [nutriadmin.com/training](https://nutriadmin.com/training/).
 7. All remote (teleworking) workforce members are trained on the risks, the controls implemented, their responsibilities, and sanctions associated with violation of policies. Additionally, remote security is maintained through the use of VPN tunnels for all access to production systems with access to ePHI data.
 8. All NutriAdmin-purchased and -owned computers are to display this message at login and when the computer is unlocked: *This computer is owned by NutriAdmin (Magosoft Ltd). By logging in, unlocking, and/or using this computer you acknowledge you have seen, and follow, these policies (https://nutriadmin.com/policy) and have completed this training (https://nutriadmin.com/training). Please contact us if you have problems with this - diego@nutriadmin.com*.
-9. Employees may only use Datica-purchased and -owned workstations for accessing production systems with access to ePHI data.
+9. Employees may only use NutriAdmin-purchased and -owned workstations for accessing production systems with access to ePHI data.
    * Any workstations used to access production systems must be configured as prescribed in [§7.8](#7.8-employee-workstation-use).
    * Any workstations used to access production systems must have virus protection software installed, configured, and enabled.
-   * Datica may monitor access and activities of all users on workstations and production systems in order to meet auditing policy requirements ([§8](#8.-auditing-policy)).
-10. Access to internal Datica systems can be requested using the procedures outlined in [§7.2](#7.2-access-establishment-and-modification). All requests for access must be granted by the Datica Security Officer.
-11. Request for modifications of access for any Datica employee can be made using the procedures outlined in [§7.2](#7.2-access-establishment-and-modification).
-12. Datica employees are strictly forbidden from downloading any ePHI to their workstations.
+   * NutriAdmin may monitor access and activities of all users on workstations and production systems in order to meet auditing policy requirements ([§8](#8.-auditing-policy)).
+10. Access to internal NutriAdmin systems can be requested using the procedures outlined in [§7.2](#7.2-access-establishment-and-modification). All requests for access must be granted by the NutriAdmin Security Officer.
+11. Request for modifications of access for any NutriAdmin employee can be made using the procedures outlined in [§7.2](#7.2-access-establishment-and-modification).
+12. NutriAdmin employees are strictly forbidden from downloading any ePHI to their workstations.
     * Restricting transfers of ePHI is enforced through technical controls as described in [§7.13](#7.13-access-to-ephi).
     * Employees found to be in violation of this policy will be subject to sanctions as described in [§5.3.3](#5.3-security-officer).
 13. Employees are required to cooperate with federal and state investigations.
@@ -38,14 +38,14 @@ NutriAdmin is committed to ensuring all workforce members actively address secur
 
 ## 19.3 Issue Escalation
 
-Datica workforce members are to escalate issues using the procedures outlined in the Employee Handbook. Issues that are brought to the Escalation Team are assigned an owner. The membership of the Escalation Team is maintained by the Chief Executive Officer.
+NutriAdmin workforce members are to escalate issues using the procedures outlined in the Employee Handbook. Issues that are brought to the Escalation Team are assigned an owner. The membership of the Escalation Team is maintained by the Chief Executive Officer.
 
-Security incidents, particularly those involving ePHI, are handled using the process described in [§11.2](#11.2-incident-management-policies). If the incident involves a breach of ePHI, the Security Officer will manage the incident using the process described in [§12.2](#12.2-datica-breach-policy). Refer to [§11.2](#11.2-incident-management-policies) for a list of sample items that can trigger Datica's incident response procedures; if you are unsure whether the issue is a security incident, contact the Security Officer immediately.
+Security incidents, particularly those involving ePHI, are handled using the process described in [§11.2](#11.2-incident-management-policies). If the incident involves a breach of ePHI, the Security Officer will manage the incident using the process described in [§12.2](#12.2-nutriadmin-breach-policy). Refer to [§11.2](#11.2-incident-management-policies) for a list of sample items that can trigger NutriAdmin's incident response procedures; if you are unsure whether the issue is a security incident, contact the Security Officer immediately.
 
 It is the duty of that owner to follow the process outlined below:
 
-1. Create an Issue in the JIRA Compliance Review Activity (CRA) Project.
-2. The Issue is investigated, documented, and, when a conclusion or remediation is reached, it is moved to Review.
-3. The Issue is reviewed by another member of the Escalation Team. If the Issue is rejected, it goes back for further evaluation and review.
-4. If the Issue is approved, it is marked as Done, adding any pertinent notes required.
+1. Create an Task in the Compliance Review Activity (CRA) Spreadsheet.
+2. The Task is investigated, documented, and, when a conclusion or remediation is reached, it is moved to Review.
+3. The Task is reviewed by another member of the Escalation Team. If the Task is rejected, it goes back for further evaluation and review.
+4. If the Task is approved, it is marked as Done, adding any pertinent notes required.
 5. The workforce member that initiated the process is notified of the outcome via email.
