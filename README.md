@@ -64,5 +64,5 @@ Each policy is included as its own markdown file in case you want to cherry-pick
 * [Approved Tools Policy](source/sections/20-approved_tools_policy.md)
 * [3rd Party Policy](source/sections/21-3rd_party_policy.md)
 * [Key Definitions](source/sections/22-key_definitions.md)
-* [Datica HIPAA Business Associate Agreement (“BAA”)](source/sections/23-datica_hipaa_business_associate_agreement.md)
-* [HIPAA Mappings to Datica Controls](source/sections/24-hipaa_mapping_to_datica_controls.md)
+* [Datica HIPAA Business Associate Agreement (“BAA”)](source/sections/23-nutriadmin_hipaa_business_associate_agreement.md)
+* [HIPAA Mappings to Datica Controls](source/sections/24-hipaa_mapping_to_nutriadmin_controls.md)
