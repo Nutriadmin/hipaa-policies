@@ -8,18 +8,6 @@ NutriAdmin provides secure and compliant cloud-based software. This hosted softw
 
 SaaS Customers utilize hosted software and infrastructure from NutriAdmin to manage their nutrition practice and clients/patients or nutrition-related business. These customers are deployed into compliant containers run on systems secured and managed by Datica. Datica does not have insight or access into application level data of PaaS Customers and, as such, does not have the ability to secure or manage risk associated with application level vulnerabilities and security weaknesses. Datica makes every effort to reduce the risk of unauthorized disclosure, access, and/or breach of PaaS Customer data through network (firewalls, dedicated IP spaces, etc) and server settings (encryption at rest and in transit, OSSEC throughout the Platform, etc).
 
-## 1.2 Compliance Inheritance
-
-NutriAdmin provides compliant hosted software for its Customers. Datica has been through a HIPAA compliance audit by a national third-party compliance firm to validate and map organizational policies and technical controls to HIPAA rules. Datica's company policies, procedures, and technologies are HITRUST Certified. Datica's service offerings are available on AWS, Azure, Rackspace, and SoftLayer; current production systems on these platforms are included in Datica's third-party audits and HITRUST certification.
-
-Datica signs business associate agreements (BAAs) with its Customers. These BAAs outline Datica obligations and Customer obligations, as well as liability in the case of a breach. In providing infrastructure and managing security configurations that are a part of the technology requirements that exist in HIPAA and HITRUST, as well as future compliance frameworks, Datica manages various aspects of compliance for Customers. The aspects of compliance that Datica manages for Customers are inherited by Customers, and Datica assumes the risk associated with those aspects of compliance. In doing so, Datica helps Customers achieve and maintain compliance, as well as mitigates Customers risk.
-
-Datica does not act as a covered entity. When Datica does operate as a business associate (not a subcontractor), Datica does not interface with users to obtain or provide access to ePHI. Access to ePHI is through our customers' applications.
-
-Certain aspects of compliance cannot be inherited. Because of this, Datica Customers, in order to achieve full compliance or HITRUST Certification, must implement certain organizational policies. These policies and aspects of compliance fall outside of the services and obligations of Datica.
-
-Mappings of HIPAA Rules to Datica controls and a mapping of what Rules are inherited by Customers, both Platform Customers and Add-on Customers, are covered in [§2](#2.-hipaa-inheritance).
-
 ## 1.3 Datica Organizational Concepts
 
 The physical infrastructure environment is hosted at [Rackspace](https://www.rackspace.com/), [Amazon Web Services](https://aws.amazon.com/) (AWS), [Microsoft Azure](https://azure.microsoft.com/), and [IBM SoftLayer](http://www.softlayer.com/). The network components and supporting network infrastructure are contained within the Rackspace, AWS, Azure, and SoftLayer infrastructures and managed by Rackspace, AWS, Microsoft, and IBM (respectively). Datica does not have physical access into the network components. The Datica environment consists of Cisco firewalls; nginx web servers; Java, Python, and Go application servers; Percona and PostgreSQL database servers; Logstash logging servers; Linux Ubuntu monitoring servers; Windows Server virtual machines; Chef and Salt configuration management servers; OSSEC IDS services; Docker containers; and developer tool servers running on Linux Ubuntu.
