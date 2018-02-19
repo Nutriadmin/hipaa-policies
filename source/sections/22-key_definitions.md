@@ -2,8 +2,6 @@
 
 * *Application*: An application hosted by Datica, either maintained and created by Datica, or maintained and created by a Customer or Partner.
 
-* *Application Level*: Controls and security associated with an Application. In the case of PaaS Customers, Datica does not have access to and cannot assure compliance with security standards and policies at the Application Level.
-
 * *Audit*: Internal process of reviewing information system access and activity (e.g., log-ins, file accesses, and security incidents). An audit may be done as a periodic event, as a result of a patient complaint, or suspicion of employee wrongdoing.
 
 * *Audit Controls*: Technical mechanisms that track and record computer/system activities.
