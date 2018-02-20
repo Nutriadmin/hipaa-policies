@@ -27,7 +27,6 @@ Below is an index of all the policies we have at NutriAdmin.
 * [Data Management Policy](source/sections/06-data_management_policy.md)
 * [System Access Policy](source/sections/07-systems_access_policy.md)
 * [Auditing Policy](source/sections/08-auditing_policy.md)
-* [Configuration Management Policy](source/sections/09-configuration_management_policy.md)
 * [Facility Access Policy](source/sections/10-facility_access_policy.md)
 * [Incident Response Policy](source/sections/11-incident_response_policy.md)
 * [Breach Policy](source/sections/12-breach_policy.md)
