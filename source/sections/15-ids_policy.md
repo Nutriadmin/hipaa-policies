@@ -1,6 +1,6 @@
 # 15. IDS Policy
 
-In order to preserve the integrity of data that NutriAdmin stores, processes, or transmits for Customers, NutriAdmin implements strong intrusion detection tools and policies to proactively track and retroactively investigate unauthorized access. NutriAdmin currently utilizes [OSSEC](http://www.ossec.net/) to track file system integrity, monitor log data, and detect rootkit access.
+In order to preserve the integrity of data that NutriAdmin stores, processes, or transmits for Customers, NutriAdmin implements strong intrusion detection tools and policies to proactively track and retroactively investigate unauthorized access. NutriAdmin currently utilizes [OSSEC](https://ossec.github.io/) to track file system integrity, monitor log data, and detect rootkit access.
 
 ## 15.1 Applicable Standards from the HIPAA Security Rule
 
