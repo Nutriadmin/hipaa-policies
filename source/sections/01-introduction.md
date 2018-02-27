@@ -4,7 +4,11 @@ NutriAdmin, owned by Magosoft Ltd ("NutriAdmin") is committed to ensuring the co
 
 NutriAdmin provides secure and compliant cloud-based software. This hosted software falls into one broad category: **Software as a Service (SaaS)**. This Category is cited throughout polices as either *Software as a Service* or *SaaS* for short.
 
-## 1.1 Software as a Service (SaaS)
+## 1.1 Attributtion
+
+NutriAdmin's policies are based on [Datica's policies](https://github.com/catalyzeio/policies). Datica's policies have been used as a template to create NutriAdmin's policies – as allowed by their license. All policies are licensed under [CC BY-SA 4.0](http://creativecommons.org/licenses/by-sa/4.0/).
+
+## 1.2 Software as a Service (SaaS)
 
 SaaS Customers utilize hosted software and infrastructure from NutriAdmin to manage their nutrition practice and clients/patients or nutrition-related businesses. These customers make use of software running in compliant hosting. NutriAdmin makes every effort to reduce the risk of unauthorized disclosure, access, and/or breach of SaaS Customer data through network (firewalls, network security groups, etc) and server settings (encryption at rest and in transit, OSSEC throughout the Platform, etc).
 

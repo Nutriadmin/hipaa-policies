@@ -10,7 +10,7 @@ NutriAdmin is committed to ensuring all workforce members actively address secur
 
 1. All new workforce members, including contractors, are given training on security policies and procedures, including operations security, within 30 days of employment.
    * Records of training are kept for all workforce members.
-   * Upon completion of training, workforce members complete this [form](https://docs.google.com/a/catalyze.io/forms/d/1bmEK3TidACj6ForBqGMaINPjIckv9ht28rtkGEQsBGs/viewform?usp=send_form).
+   * Upon completion of training, workforce members complete a Google Form confirming they have read the training, answered the training quiz, and had a conversation with their manager/security officer regarding their security responsabilities.
    * Current NutriAdmin training is hosted at [nutriadmin.com/training](https://nutriadmin.com/training/).
    * Employees must complete this training before accessing production systems containing ePHI.
 2. All workforce members are granted access to formal organizational policies, which include the sanction policy for security violations.
