@@ -139,6 +139,8 @@
 
 * *Vendors*: Persons from other organizations marketing or selling products or services, or providing services to NutriAdmin.
 
+* *VSTS*: Visual Studio Team Services, software provided by Microsoft for code version control (using git) and agile work management.
+
 * *Vulnerability*: A weakness or flaw in an information system that can be accidentally triggered or intentionally exploited by a threat and lead to a compromise in the integrity of that system, i.e., resulting in a security breach or violation of policy.
 
 * *Workstation*: An electronic computing device, such as a laptop or desktop computer, or any other device that performs similar functions, used to create, receive, maintain, or transmit ePHI. Workstation devices may include, but are not limited to: laptop or desktop computers, personal digital assistants (PDAs), tablet PCs, and other handheld devices. For the purposes of this policy, "workstation" also includes the combination of hardware, operating system, application software, and network connection.

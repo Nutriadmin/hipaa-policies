@@ -16,7 +16,7 @@ NutriAdmin implements policies and procedures to maintain compliance and integri
     2. The Security Officer or the Privacy Officer is assigned to review the policy Change Request.
     3. Once the review is completed, the Security Officer or Privacy Officer approves or rejects the Change Request. If the Change Request is rejected, it goes back for further review and documentation.
     4. If the review is approved, the Security Officer or Privacy Officer implements the Change Request to the policy or assigns an authorized employee to publish the changes. The Security Officer or Privacy officer may add any pertinent notes required.
-    5. If the policy change requires technical modifications to production systems, those changes are carried out by authorized personnel using NutriAdmin's [change management process (§9.4)](#9.4-changing-existing-systems).
+    5. If the policy change requires technical modifications to production systems, those changes are carried out by authorized personnel.
 4. All policies are made accessible to all NutriAdmin workforce members. The current master policies are published at [https://nutriadmin.com/policy](https://nutriadmin.com/policy).
    * The Security Officer communicates policy changes to all employees via email. These emails include a high-level description of the policy change using terminology appropriate for the target audience plus a link to the Github repository where the employees can see the changes in detail.
 5. All policies, and associated documentation, are retained for 6 years from the date of its creation or the date when it last was in effect, whichever is later
