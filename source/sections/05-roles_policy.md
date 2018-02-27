@@ -11,10 +11,9 @@ NutriAdmin has a Security Officer [164.308(a)(2)] and Privacy Officer [164.308(a
 
 The Privacy Officer is responsible for assisting with compliance and security training for workforce members, assuring organization remains in compliance with evolving compliance rules, and helping the Security Officer in his responsibilities.
 
-1. Provides annual training to all workforce members of established policies and procedures as necessary and appropriate to carry out their job functions, and documents the training provided.
-2. Assists in the administration and oversight of business associate agreements.
-3. Manage relationships with customers and partners as those relationships affect security and compliance of ePHI.
-4. Assist Security Officer as needed.
+1. Assists in the administration and oversight of business associate agreements.
+2. Manage relationships with customers and partners as those relationships affect security and compliance of ePHI.
+3. Assist Security Officer as needed.
 
 The current NutriAdmin Privacy Officer is Diego Oliveira Sanchez ([diego@nutriadmin.com](mailto:diego@nutriadmin.com)).
 
@@ -89,6 +88,8 @@ These organizational responsibilities include, but are not limited to the follow
     * Media Disposal and/or Re-use;
     * Documentation requirements.
 13. The Security Officer works with the CEO to ensure that any security objectives have appropriate consideration during the budgeting process.
+14. Provides annual training to all workforce members of established policies and procedures as necessary and appropriate to carry out their job functions, and documents the training provided.
+
 
 ### 5.3.2 Supervision of Workforce Responsibilities
 
