@@ -47,14 +47,13 @@ Production systems that create, receive, store, or transmit Customer data (herea
 3. Ensure that confidential data is stored in a manner that supports user access logs and automated monitoring for potential security incidents.
 4. Ensure NutriAdmin Customer Production Data is segmented and only accessible to Customer authorized to access data.
 5. All Production Data at rest is stored on encrypted volumes using encryption keys managed by NutriAdmin.
-6. Volume encryption keys and machines that generate volume encryption keys are protected from unauthorized access. Volume encryption key material is protected with access controls such that the key material is only accessible by privileged accounts.
+6. Volume encryption is done using Microsoft Azure Disk Encryption extension and the encryption keys are stored securely within an Azure Keyvault. Volume encryption key material is protected with access controls such that the key material is only accessible by privileged accounts.
 7. Encrypted volumes use AES encryption with a minimum of 256-bit keys, or keys and ciphers of equivalent or higher cryptographic strength.
 
 ## 17.9 Transmission Security
 
 1. All data transmission is encrypted end to end using encryption keys managed by NutriAdmin. Encryption is not terminated at the network end point, and is carried through to the application.
 2. Transmission encryption keys and machines that generate keys are protected from unauthorized access. Transmission encryption key material is protected with access controls such that the key material is only accessible by privileged accounts.
-3. Transmission encryption keys use a minimum of 4096-bit RSA keys, or keys and ciphers of equivalent or higher cryptographic strength (e.g., 256-bit AES session keys in the case of IPsec encryption).
-4. Transmission encryption keys are limited to use for one year and then must be regenerated.
-5. In the case of NutriAdmin provided APIs, provide mechanisms to assure person sending or receiving data is authorized to send and save data.
-6. System logs of all transmissions of Production Data access. These logs must be available for audit.
+3. Transmission encryption keys are limited to use for one year and then must be regenerated.
+4. In the case of NutriAdmin provided APIs, provide mechanisms to assure person sending or receiving data is authorized to send and save data.
+5. System logs of all transmissions of Production Data access. These logs must be available for audit.
