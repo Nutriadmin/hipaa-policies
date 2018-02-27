@@ -21,11 +21,11 @@ NutriAdmin makes every effort to assure all 3rd party organizations are complian
    * The annual review of Partners and Subcontractors is conducted as a part of the security, compliance, and SLA review referenced below.
 8. NutriAdmin assesses security, compliance, and SLA requirements and considerations with all Partners and Subcontractors. This includes annual assessment of SOC2 Reports for all NutriAdmin infrastructure partners.
    * NutriAdmin leverages recurring calendar invites to assure reviews of all 3rd party services are performed annually. These reviews are performed by the NutriAdmin Security Officer and Privacy Officer. The process for reviewing 3rd party services is outlined below:
-     1. The Security Officer initiates the SLA review by creating a Task in the Compliance Review Activity (CRA) Spreadsheet.
+     1. The Security Officer initiates the SLA review by creating a User Story in the VSTS Compliance Review Activity (CRA) Project.
      2. The Security Officer, or Privacy Officer, is assigned to review the SLA and performance of 3rd parties. The list of current 3rd parties, including contact information, is also reviewed to assure it is up to date and complete.
-     3. SLA, security, and compliance performance is documented in the Task.
-     4. Once the review is completed and documented, the Security Officer approves or rejects the Task. If the Task is rejected, it goes back for further review and documentation.
+     3. SLA, security, and compliance performance is documented in the User Story.
+     4. Once the review is completed and documented, the Security Officer approves or rejects the User Story. If the User Story is rejected, it goes back for further review and documentation.
 9. Regular review is conducted as required by SLAs to assure security and compliance. These reviews include reports, audit trails, security events, operational issues, failures and disruptions, and identified issues are investigated and resolved in a reasonable and timely manner.
 10. Any changes to Partner and Subcontractor services and systems are reviewed before implementation.
 11. For all partners, NutriAdmin reviews activity annually to assure partners are in line with SLAs in contracts with NutriAdmin.
-12. SLA review is monitored on a quarterly basis using the Compliance Review Activity (CRA) spreadsheet to assess compliance with above policy.
+12. SLA review is monitored on a quarterly basis using the VSTS Compliance Review Activity (CRA) Project to assess compliance with above policy.

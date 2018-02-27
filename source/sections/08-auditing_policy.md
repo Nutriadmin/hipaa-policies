@@ -66,11 +66,11 @@ This policy applies to all NutriAdmin systems that store, transmit, or process e
 ## 8.4 Review and Reporting of Audit Findings
 
 1. Audit information that is routinely gathered must be reviewed in a timely manner, currently quarterly, by the responsible workforce member(s). On a quarterly basis, logs are reviewed to assure the proper data is being captured and retained. The following process details how log reviews are done at NutriAdmin:
-    1. The Security Officer initiates the log review by creating a Task in the VSTS Compliance Review Activity (CRA) Project.
+    1. The Security Officer initiates the log review by creating a User Story in the VSTS Compliance Review Activity (CRA) Project.
     2. The Security Officer, or a NutriAdmin Security Engineer assigned by the Security Officer, is assigned to review the logs.
-    3. Relevant audit log findings are added to the Task; these findings are investigated in a later step. Once those steps are completed, the Task is then reviewed again.
-    4. Once the review is completed, the Security Officer approves or rejects the Task. Relevant findings are reviewed at this stage. If the Task is rejected, it goes back for further review and documentation. The communications protocol around specific findings are outlined below.
-    5. If the Task is approved, the Security Officer then marks the Task as Done, adding any pertinent notes required.
+    3. Relevant audit log findings are added to the User Story; these findings are investigated in a later step. Once those steps are completed, the User Story is then reviewed again.
+    4. Once the review is completed, the Security Officer approves or rejects the User Story. Relevant findings are reviewed at this stage. If the User Story is rejected, it goes back for further review and documentation. The communications protocol around specific findings are outlined below.
+    5. If the User Story is approved, the Security Officer then marks the User Story as Closed, adding any pertinent notes required.
 2. The reporting process shall allow for meaningful communication of the audit findings to those workforce members, Customers, or Partners requesting the audit.
    * Significant findings shall be reported immediately in a written format. NutriAdmin's security incident response form may be utilized to report a single event.
    * Routine findings shall be reported to the sponsoring leadership structure in a written report format.
