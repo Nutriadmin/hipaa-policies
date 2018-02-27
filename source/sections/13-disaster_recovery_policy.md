@@ -51,7 +51,7 @@ The following order of succession to ensure that decision-making authority for t
 The following teams have been developed and trained to respond to a contingency event affecting the IT system.
 
 1. The **Ops Team** is responsible for recovery of the NutriAdmin hosted environment, network devices, and all servers. Members of the team include personnel who are also responsible for the daily operations and maintenance of NutriAdmin. The team leader is the CTO and directs the Dev Ops Team.
-2. The **Web Services Team** is responsible for assuring all application servers, web services, and platform add-ons are working. It is also responsible for testing redeployments and assessing damage to the environment. The team leader is the CTO and directs the Web Services Team.
+2. The **Web Services Team** is responsible for assuring all application servers, database servers, and web services are working. It is also responsible for testing redeployments and assessing damage to the environment. The team leader is the CTO and directs the Web Services Team.
 
 Members of the Ops and Web Services teams must maintain local copies of the contact information from [§13.2](#13.2-line-of-succession). Additionally, the CTO must maintain a local copy of this policy in the event Internet access is not available during a disaster scenario.
 
