@@ -101,9 +101,11 @@ All workstations at NutriAdmin are company owned, and all are laptop Apple produ
 9. All workstations are to have the following messages added to the lock screen and login screen: *This computer is owned by NutriAdmin (Magosoft Ltd). By logging in, unlocking, and/or using this computer you acknowledge you have seen, and follow, these policies (https://nutriadmin.com/policy) and have completed this training (https://nutriadmin.com/training). Please contact us if you have problems with this - diego@nutriadmin.com*
 
 ## 7.9 Wireless Access Use
-
-1. When accessing production systems via remote wireless connections, the same system access policies and procedures apply to wireless as all other connections, including wired.
-2. Wireless networks managed within NutriAdmin non-production facilities (offices, etc.) are secured with the following configurations:
+			
+1. NutriAdmin production systems are not accessible directly over wireless channels.
+2. Wireless access is disabled on all production systems.
+3. When accessing production systems via remote wireless connections, the same system access policies and procedures apply to wireless as all other connections, including wired.
+4. Wireless networks managed within NutriAdmin non-production facilities (offices, etc.) are secured with the following configurations:
    * All data in transit over wireless is encrypted using WPA2 encryption;
    * Passwords are rotated on a regular basis, presently bi-annually. This process is managed by the NutriAdmin Security Officer.
 
