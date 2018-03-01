@@ -52,8 +52,7 @@ Production systems that create, receive, store, or transmit Customer data (herea
 
 ## 17.9 Transmission Security
 
-1. All data transmission is encrypted end to end using encryption keys managed by NutriAdmin. Encryption is not terminated at the network end point, and is carried through to the application.
+1. All data transmission is encrypted from user to internet-facing web server using encryption keys managed by NutriAdmin.
 2. Transmission encryption keys and machines that generate keys are protected from unauthorized access. Transmission encryption key material is protected with access controls such that the key material is only accessible by privileged accounts.
-3. Transmission encryption keys are limited to use for one year and then must be regenerated.
+3. Transmission encryption keys are limited to use for a pre-determined amount of time and then must be regenerated.
 4. In the case of NutriAdmin provided APIs, provide mechanisms to assure person sending or receiving data is authorized to send and save data.
-5. System logs of all transmissions of Production Data access. These logs must be available for audit.
