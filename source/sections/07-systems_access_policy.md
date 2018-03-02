@@ -130,6 +130,7 @@ NutriAdmin does not use paper records for any sensitive information. Use of pape
 3. On all production systems and software used by NutriAdmin personnel for work-related purposes, password configurations require:
    * a minimum length of 8 characters;
    * a mix of upper case characters, lower case characters, and numbers or special characters (if permitted by the system);
+   * for production servers, rules are in place to enforce users changing password at least every 365 days.
 4. All system and application passwords must be stored and transmitted securely.
    * Where possible, passwords should be stored in a hashed format.
    * Passwords that must be stored in non-hashed format must be encrypted at rest pursuant to the requirements in [§17.8](#17.8-production-data-security).
