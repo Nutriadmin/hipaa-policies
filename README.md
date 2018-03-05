@@ -16,6 +16,10 @@ To get in touch, shoot us an email at [support@nutriadmin.com](mailto:support@nu
 
 All policies are licensed under [CC BY-SA 4.0](http://creativecommons.org/licenses/by-sa/4.0/).
 
+### Running project in local machine
+
+Clone the git project and then execute `bundle exec middleman s` to run the project locally. You may need to install middleman first.
+
 ### Policy Index
 
 Below is an index of all the policies we have at NutriAdmin.
