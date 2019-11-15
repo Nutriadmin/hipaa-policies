@@ -10,6 +10,8 @@
 
 * *Access*: Means the ability or the means necessary to read, write, modify, or communicate data/ information or otherwise use any system resource.
 
+* *Azure DevOps*: (previously named Visual Studio Team Services, or VSTS for short) software provided by Microsoft for code version control (using git) and agile work management.
+
 * *Backup*: The process of making an electronic copy of data stored in a computer system. This can either be complete, meaning all data and programs, or incremental, including just the data that changed from the previous backup.
 
 * *Breach*: Means the acquisition, access, use, or disclosure of protected health information (PHI) in a manner not permitted under the Privacy Rule which compromises the security or privacy of the PHI. For purpose of this definition, "compromises the security or privacy of the PHI" means poses a significant risk of financial, reputational, or other harm to the individual. A use or disclosure of PHI that does not include the identifiers listed at §164.514(e)(2), limited data set, date of birth, and zip code does not compromise the security or privacy of the PHI. Breach excludes:
@@ -138,8 +140,6 @@
   6. Electronic media have been cleared, purged, or destroyed consistent with NIST Special Publications 800-88, Guidelines for Media Sanitization, such that the PHI cannot be retrieved.
 
 * *Vendors*: Persons from other organizations marketing or selling products or services, or providing services to NutriAdmin.
-
-* *Azure DevOps*: Visual Studio Team Services, software provided by Microsoft for code version control (using git) and agile work management.
 
 * *Vulnerability*: A weakness or flaw in an information system that can be accidentally triggered or intentionally exploited by a threat and lead to a compromise in the integrity of that system, i.e., resulting in a security breach or violation of policy.
 

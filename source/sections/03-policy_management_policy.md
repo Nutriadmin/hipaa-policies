@@ -21,7 +21,7 @@ NutriAdmin implements policies and procedures to maintain compliance and integri
    * The Security Officer communicates policy changes to all employees via email. These emails include a high-level description of the policy change using terminology appropriate for the target audience plus a link to the Github repository where the employees can see the changes in detail.
 5. All policies, and associated documentation, are retained for 6 years from the date of its creation or the date when it last was in effect, whichever is later
    1. Version history of all NutriAdmin policies is done via GitHub.
-   2. Backup storage of all policies is done with Microsoft's Visual Studio Team Services.
+   2. Backup storage of all policies is done with Microsoft's Azure DevOps.
 6. The policies and information security policies are reviewed and audited annually, or after significant changes occur to NutriAdmin's organizational environment. Issues that come up as part of this process are reviewed by NutriAdmin management to assure all risks and potential gaps are mitigated and/or fully addressed. The process for reviewing polices is outlined below:
     1. The Security Officer initiates the policy review by recording a User Story in the Azure DevOps Compliance Review Activity (CRA) Project.
     2. The Security Officer or the Privacy Officer is assigned to review the current NutriAdmin policies ([https://nutriadmin.com/policy/](https://nutriadmin.com/policy/)).
