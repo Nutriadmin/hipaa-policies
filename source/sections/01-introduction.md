@@ -10,7 +10,7 @@ NutriAdmin's policies are based on [Datica's policies](https://github.com/cataly
 
 ## 1.2 Software as a Service (SaaS)
 
-SaaS Customers utilize hosted software and infrastructure from NutriAdmin to manage their nutrition practice and clients/patients or nutrition-related businesses. These customers make use of software running in compliant hosting. NutriAdmin makes every effort to reduce the risk of unauthorized disclosure, access, and/or breach of SaaS Customer data through network (firewalls, network security groups, etc) and server settings (encryption at rest and in transit, OSSEC throughout the Platform, etc).
+SaaS Customers utilize hosted software and infrastructure from NutriAdmin to manage their nutrition practice and clients/patients or nutrition-related businesses. These customers make use of software running in compliant hosting. NutriAdmin makes every effort to reduce the risk of unauthorized disclosure, access, and/or breach of SaaS Customer data through network (firewalls, network security groups, etc) and web-app/database settings (encryption at rest and in transit, etc).
 
 ## 1.3 NutriAdmin Organizational Concepts
 
