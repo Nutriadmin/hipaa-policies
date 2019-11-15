@@ -28,7 +28,7 @@ NutriAdmin implements policies and procedures to maintain compliance and integri
     3. If changes are made, the above process is used. All changes are documented in the User Story.
     4. Once the review is completed, the Security Officer or Privacy Officer approves or rejects the User Story. If the User Story is rejected, it goes back for further review and documentation.
     5. If the review is approved, the Security Officer or Privacy Officer then marks the User Story as Closed, adding any pertinent notes required.
-    6. Policy review is monitored on a quarterly basis using the Azure DevOps Compliance Review Activity (CRA) Project to assess compliance with above policy.
+    6. Policy review is monitored on a yearly basis using the Azure DevOps Compliance Review Activity (CRA) Project to assess compliance with above policy.
 7. NutriAdmin tracks compliance with HIPAA and publishes results at [https://nutriadmin.com/hipaa](https://nutriadmin.com/hipaa). In order to track and measure adherence on an annual basis, NutriAdmin uses the following process to track HIPAA audits, both full and interim:
     1. The Security Officer initiates the HIPAA audit activity by recording a User Story in the Azure DevOps Compliance Review Activity (CRA) Project.
     2. The Security Officer or the Privacy Officer is assigned to own and manage the HIPAA activity.
