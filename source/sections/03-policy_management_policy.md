@@ -12,7 +12,7 @@ NutriAdmin implements policies and procedures to maintain compliance and integri
 1. All policies are stored and up to date to maintain NutriAdmin compliance with HIPAA, and other relevant standards. Updates and version control are done similar to source code control.
 2. Policy update requests can be made by any workforce member at any time. Furthermore, all policies are reviewed annually by both the Security and Privacy Officer to assure they are accurate and up-to-date.
 3. NutriAdmin employees may request changes to policies using the following process:
-    1. The NutriAdmin employee initiates a policy Change Request by creating a User Story on the VSTS Compliance Review Activity (CRA) Project and by sending an email detailing the proposed change to the Security Officer or to the Privacy Officer. The Change Request may optionally include a GitHub pull request from a separate branch or repository containing the desired changes.
+    1. The NutriAdmin employee initiates a policy Change Request by creating a User Story on the Azure DevOps Compliance Review Activity (CRA) Project and by sending an email detailing the proposed change to the Security Officer or to the Privacy Officer. The Change Request may optionally include a GitHub pull request from a separate branch or repository containing the desired changes.
     2. The Security Officer or the Privacy Officer is assigned to review the policy Change Request.
     3. Once the review is completed, the Security Officer or Privacy Officer approves or rejects the Change Request. If the Change Request is rejected, it goes back for further review and documentation.
     4. If the review is approved, the Security Officer or Privacy Officer implements the Change Request to the policy or assigns an authorized employee to publish the changes. The Security Officer or Privacy officer may add any pertinent notes required.
@@ -23,17 +23,17 @@ NutriAdmin implements policies and procedures to maintain compliance and integri
    1. Version history of all NutriAdmin policies is done via GitHub.
    2. Backup storage of all policies is done with Microsoft's Visual Studio Team Services.
 6. The policies and information security policies are reviewed and audited annually, or after significant changes occur to NutriAdmin's organizational environment. Issues that come up as part of this process are reviewed by NutriAdmin management to assure all risks and potential gaps are mitigated and/or fully addressed. The process for reviewing polices is outlined below:
-    1. The Security Officer initiates the policy review by recording a User Story in the VSTS Compliance Review Activity (CRA) Project.
+    1. The Security Officer initiates the policy review by recording a User Story in the Azure DevOps Compliance Review Activity (CRA) Project.
     2. The Security Officer or the Privacy Officer is assigned to review the current NutriAdmin policies ([https://nutriadmin.com/policy/](https://nutriadmin.com/policy/)).
     3. If changes are made, the above process is used. All changes are documented in the User Story.
     4. Once the review is completed, the Security Officer or Privacy Officer approves or rejects the User Story. If the User Story is rejected, it goes back for further review and documentation.
     5. If the review is approved, the Security Officer or Privacy Officer then marks the User Story as Closed, adding any pertinent notes required.
-    6. Policy review is monitored on a quarterly basis using the VSTS Compliance Review Activity (CRA) Project to assess compliance with above policy.
+    6. Policy review is monitored on a quarterly basis using the Azure DevOps Compliance Review Activity (CRA) Project to assess compliance with above policy.
 7. NutriAdmin tracks compliance with HIPAA and publishes results at [https://nutriadmin.com/hipaa](https://nutriadmin.com/hipaa). In order to track and measure adherence on an annual basis, NutriAdmin uses the following process to track HIPAA audits, both full and interim:
-    1. The Security Officer initiates the HIPAA audit activity by recording a User Story in the VSTS Compliance Review Activity (CRA) Project.
+    1. The Security Officer initiates the HIPAA audit activity by recording a User Story in the Azure DevOps Compliance Review Activity (CRA) Project.
     2. The Security Officer or the Privacy Officer is assigned to own and manage the HIPAA activity.
     3. Once the HIPAA activity is completed, the Security Officer approves or rejects the User Story.
     4. If the review is approved, the Security Officer then marks the User Story as Closed, adding any pertinent notes required.
-    5. Compliance with annual compliance assessments is monitored on a quarterly basis using the VSTS Compliance Review Activity (CRA) Project to assess compliance with above policy.
+    5. Compliance with annual compliance assessments is monitored on a quarterly basis using the Azure DevOps Compliance Review Activity (CRA) Project to assess compliance with above policy.
 
 Additional documentation related to maintenance of policies is outlined in [§5.3.1](#5.3-security-officer).

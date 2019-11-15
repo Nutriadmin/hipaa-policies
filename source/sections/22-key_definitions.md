@@ -139,7 +139,7 @@
 
 * *Vendors*: Persons from other organizations marketing or selling products or services, or providing services to NutriAdmin.
 
-* *VSTS*: Visual Studio Team Services, software provided by Microsoft for code version control (using git) and agile work management.
+* *Azure DevOps*: Visual Studio Team Services, software provided by Microsoft for code version control (using git) and agile work management.
 
 * *Vulnerability*: A weakness or flaw in an information system that can be accidentally triggered or intentionally exploited by a threat and lead to a compromise in the integrity of that system, i.e., resulting in a security breach or violation of policy.
 

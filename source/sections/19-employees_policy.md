@@ -44,7 +44,7 @@ Security incidents, particularly those involving ePHI, are handled using the pro
 
 It is the duty of that owner to follow the process outlined below:
 
-1. Create an User Story in the VSTS Compliance Review Activity (CRA) Project.
+1. Create an User Story in the Azure DevOps Compliance Review Activity (CRA) Project.
 2. The User Story is investigated, documented, and, when a conclusion or remediation is reached, it is moved to Review.
 3. The User Story is reviewed by another member of the Escalation Team. If the User Story is rejected, it goes back for further evaluation and review.
 4. If the User Story is approved, it is marked as Closed, adding any pertinent notes required.

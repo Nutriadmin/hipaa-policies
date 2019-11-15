@@ -18,7 +18,7 @@ Access to NutriAdmin systems and application is limited for all users, including
 ## 7.2 Access Establishment and Modification
 
 1. Requests for access to NutriAdmin Platform systems and applications is made formally using the following process:
-  1. A NutriAdmin workforce member initiates the access request by emailing the Security Officer or Privacy Officer and by creating a User Story in the VSTS Compliance Review Activity (CRA) Project.
+  1. A NutriAdmin workforce member initiates the access request by emailing the Security Officer or Privacy Officer and by creating a User Story in the Azure DevOps Compliance Review Activity (CRA) Project.
      * User identities must be verified prior to granting access to new accounts.
      * Identity verification must be done in person where possible; for remote employees, identities must be verified over the phone.
      * For new accounts, the method used to verify the user's identity must be recorded on the User Story.
@@ -32,12 +32,12 @@ Access to NutriAdmin systems and application is limited for all users, including
 2. Access is not granted until receipt, review, and approval by the NutriAdmin Security Officer or Privacy Officer ;
 3. The request for access is retained for future reference.
 4. All access to NutriAdmin systems and services are reviewed and updated on a bi-annual basis to ensure proper authorizations are in place commensurate with job functions. The process for conducting reviews is outlined below:
-   1. The Security Officer initiates the review of user access by creating a User Story in the VSTS Compliance Review Activity (CRA) Project.
+   1. The Security Officer initiates the review of user access by creating a User Story in the Azure DevOps Compliance Review Activity (CRA) Project.
    2. The Security Officer is assigned to review levels of access for each NutriAdmin workforce member.
    3. If user access is found during review that is not in line with the least privilege principle, the process below is used to modify user access and notify the user of access changes. Once those steps are completed, the User Story is then reviewed again.
    4. Once the review is completed, the Security Officer approves or rejects the User Story. If the User Story is rejected, it goes back for further review and documentation.
    5. If the review is approved, the Security Officer then marks the User Story as Closed, adding any pertinent notes required.
-   6. Review of user access is monitored on a quarterly basis using the VSTS Compliance Review Activity (CRA) Project to assess compliance with above policy.
+   6. Review of user access is monitored on a quarterly basis using the Azure DevOps Compliance Review Activity (CRA) Project to assess compliance with above policy.
 5. Any NutriAdmin workforce member can request change of access using the process outlined in [§7.2 paragraph 1](#7.2-access-establishment-and-modification).
 6. Access to production systems is controlled using centralized user management and authentication.
 7. Temporary accounts are not used unless absolutely necessary for business purposes.
