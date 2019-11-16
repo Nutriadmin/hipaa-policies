@@ -108,7 +108,7 @@ All workstations at NutriAdmin are company owned, and all are laptop Apple produ
 3. When accessing production systems via remote wireless connections, the same system access policies and procedures apply to wireless as all other connections, including wired.
 4. Wireless networks managed within NutriAdmin non-production facilities (offices, etc.) are secured with the following configurations:
    * All data in transit over wireless is encrypted using WPA2 encryption;
-   * Passwords are rotated on a regular basis, presently bi-annually. This process is managed by the NutriAdmin Security Officer.
+   * Passwords are rotated on a regular basis, presently annually. This process is managed by the NutriAdmin Security Officer. This Task is tracked in the Compliance Review Activity (CRA) Spreadsheet with ID #CRA-28.
 
 ## 7.10 Employee Termination Procedures
 

@@ -67,7 +67,7 @@ These organizational responsibilities include, but are not limited to the follow
 5. Documents all activities and assessments completed to maintain compliance and maintains documentation for six years from the date of creation or date it was last in effect, whichever is later.
 6. Provides copies of the policies and procedures to management, customers, and partners, and has them available to review by all other workforce members to which they apply.
 7. Annually, and as necessary, reviews and updates documentation to respond to environmental or operational changes affecting the security and risk posture of ePHI stored, transmitted, or processed within NutriAdmin infrastructure.
-8. Develops and provides periodic security updates and reminder communications for all workforce members.
+8. Develops and provides annual security updates and reminder communications for all workforce members. This Task is tracked on the Compliance Review Activity (CRA) Spreadsheet with ID #CRA-21. Monitoring that the task was completed is carried out is conducted annually and tracked in the Compliance Review Activity (CRA) Spreadsheet with ID #CRA-22
 9. Implements procedures for the authorization and/or supervision of workforce members who work with ePHI or in locations where it may be accessed.
 10. Maintains a program promoting workforce members to report non-compliance with policies and procedures.
     * Promptly, properly, and consistently investigates and addresses reported violations and takes steps to prevent recurrence.
@@ -88,7 +88,7 @@ These organizational responsibilities include, but are not limited to the follow
     * Media Disposal and/or Re-use;
     * Documentation requirements.
 13. The Security Officer works with the CEO to ensure that any security objectives have appropriate consideration during the budgeting process.
-14. Provides annual training to all workforce members of established policies and procedures as necessary and appropriate to carry out their job functions, and documents the training provided.
+14. Provides annual training to all workforce members of established policies and procedures as necessary and appropriate to carry out their job functions, and documents the training provided. This is tracked with a Task in the Compliance Review Activity (CRA) spreadsheet with ID #CRA-23. Monitoring that the task was done is tracked on the Compliance Review Activity (CRA) annually with ID #CRA-24.
 
 
 ### 5.3.2 Supervision of Workforce Responsibilities
