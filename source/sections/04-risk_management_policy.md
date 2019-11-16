@@ -31,7 +31,7 @@ This policy establishes the scope, objectives, and procedures of NutriAdmin's in
     2. The Security Officer or the Privacy Officer is assigned to carry out the Risk Management Procedures.
     3. All findings are documented in the Compliance Review Activity (CRA) Spreadsheet.
     4. Once the Risk Management Procedures are complete, along with corresponding documentation, the Security Officer marks the Task as Closed, adding any pertinent notes required.
-9. The Risk Management Procedure is monitored on a yearly basis using the Azure DevOps Compliance Review Activity (CRA) Project to assess compliance with above policy. This monitoring activity is recorded using ID #CRA-7
+    5. The Risk Management Procedure is monitored on a yearly basis using the Compliance Review Activity (CRA) Spreadsheet to assess compliance with above policy. This monitoring activity is recorded using ID #CRA-7
 
 ## 4.3 Risk Management Procedures
 
