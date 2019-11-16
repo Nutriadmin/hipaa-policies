@@ -16,7 +16,7 @@ This policy establishes the scope, objectives, and procedures of NutriAdmin's in
    2. Before the integration of new system technologies and before changes are made to NutriAdmin physical safeguards; and
       * These changes do not include routine updates to existing systems, deployments of new systems created based on previously configured systems, deployments of new Customers, or new code developed for operations and management of the NutriAdmin Platform.
    3. While making changes to NutriAdmin physical equipment and facilities that introduce new, untested configurations.
-   4. NutriAdmin performs periodic technical and non-technical assessments of the security rule requirements as well as in response to environmental or operational changes affecting the security of ePHI.
+   4. NutriAdmin performs yearly technical and non-technical assessments of the security rule requirements as well as in response to environmental or operational changes affecting the security of ePHI.
 3. NutriAdmin implements security measures sufficient to reduce risks and vulnerabilities to a reasonable and appropriate level to:
    1. Ensure the confidentiality, integrity, and availability of all ePHI NutriAdmin receives, maintains, processes, and/or transmits for its Customers;
    2. Protect against any reasonably anticipated threats or hazards to the security or integrity of Customer ePHI;
@@ -27,12 +27,11 @@ This policy establishes the scope, objectives, and procedures of NutriAdmin's in
 6. The implementation, execution, and maintenance of the information security risk analysis and risk management process is the responsibility of NutriAdmin's Security Officer (or other designated employee), and the identified Risk Management Team.
 7. All risk management efforts, including decisions made on what controls to put in place as well as those to not put into place, are documented and the documentation is maintained for six years.
 8. The details of the Risk Management Process, including risk assessment, discovery, and mitigation, are outlined in detail below. The process is tracked, measured, and monitored using the following procedures:
-    1. The Security Officer or the Privacy Officer initiates the Risk Management Procedures by creating a User Story in the Azure DevOps Compliance Review Activity (CRA) Project.
+    1. The Security Officer or the Privacy Officer initiates the Risk Management Procedures by creating a Task in the Compliance Review Activity (CRA) Spreadsheet with ID #CRA-6.
     2. The Security Officer or the Privacy Officer is assigned to carry out the Risk Management Procedures.
-    3. All findings are documented in the Azure DevOps Compliance Review Activity (CRA) Project.
-    4. Once the Risk Management Procedures are complete, along with corresponding documentation, the Security Officer approves or rejects the User Story. If the User Story is rejected, it goes back for further review and documentation.
-    5. If the review is approved, the Security Officer then marks the User Story as Closed, adding any pertinent notes required.
-9. The Risk Management Procedure is monitored on a quarterly basis using the Azure DevOps Compliance Review Activity (CRA) Project to assess compliance with above policy.
+    3. All findings are documented in the Compliance Review Activity (CRA) Spreadsheet.
+    4. Once the Risk Management Procedures are complete, along with corresponding documentation, the Security Officer marks the Task as Closed, adding any pertinent notes required.
+9. The Risk Management Procedure is monitored on a yearly basis using the Azure DevOps Compliance Review Activity (CRA) Project to assess compliance with above policy. This monitoring activity is recorded using ID #CRA-7
 
 ## 4.3 Risk Management Procedures
 
@@ -125,7 +124,7 @@ Risk mitigation involves prioritizing, evaluating, and implementing the appropri
 
 The two principle components of the risk management process - risk assessment and risk mitigation - will be carried out according to the following schedule to ensure the continued adequacy and continuous improvement of NutriAdmin's information security program:
 
-* Scheduled Basis - an overall risk assessment of NutriAdmin's information system infrastructure will be conducted annually. The assessment process should be completed in a timely fashion so that risk mitigation strategies can be determined and included in the corporate budgeting process.
+* Scheduled Basis - an overall risk assessment of NutriAdmin's information system infrastructure will be conducted annually. The assessment process should be completed in a timely fashion so that risk mitigation strategies can be determined and included in the development process.
 * Throughout a System's Development Life Cycle - from the time that a need for a new, untested information system configuration and/or application is identified through the time it is disposed of, ongoing assessments of the potential threats to a system and its vulnerabilities should be undertaken as a part of the maintenance of the system.
 * As Needed - the Security Officer (or other designated employee) or Risk Management Team may call for a full or partial risk assessment in response to changes in business strategies, information technology, information sensitivity, threats, legal liabilities, or other significant factors that affect NutriAdmin's Platform.
 

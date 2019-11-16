@@ -11,10 +11,10 @@ NutriAdmin implements policies and procedures to maintain compliance and integri
 
 1. All policies are stored and up to date to maintain NutriAdmin compliance with HIPAA, and other relevant standards. Updates and version control are done similar to source code control.
 6. The policies and information security policies are reviewed and audited annually, or after significant changes occur to NutriAdmin's organizational environment. Issues that come up as part of this process are reviewed by NutriAdmin management to assure all risks and potential gaps are mitigated and/or fully addressed. The process for reviewing polices is outlined below:
-    1. The Security Officer initiates the policy review by recording an entry in the Compliance Review Activity (CRA) Spreadsheet with ID #CRA-1.
+    1. The Security Officer initiates the policy review by recording a Task in the Compliance Review Activity (CRA) Spreadsheet with ID #CRA-1.
     2. The Security Officer or the Privacy Officer is assigned to review the current NutriAdmin policies ([https://nutriadmin.com/policy/](https://nutriadmin.com/policy/)).
     3. If changes are made, the above process is used. All changes are documented automatically in the version control system for the policies repository.
-    4. Once the review is completed, the Security Officer or Privacy Officer adds an entry to the Compliance Review Activity (CRA) Spreadsheet marking the task as Done. Any relevant notes are added in the spreadsheet.
+    4. Once the review is completed, the Security Officer or Privacy Officer adds a Task to the Compliance Review Activity (CRA) Spreadsheet marking the Task as Closed. Any relevant notes are added in the spreadsheet.
     5. Policy review is monitored on a yearly basis using the Azure DevOps Compliance Review Activity (CRA) Spreadsheet to assess compliance with above policy. This monitoring activity is recorded using ID #CRA-2. 
 2. Policy update requests can be made by any workforce member at any time. NutriAdmin employees may request changes to policies using the following process:
     1. The NutriAdmin employee initiates a policy Change Request by sending an email detailing the proposed change to the Security Officer or to the Privacy Officer. 
@@ -29,9 +29,9 @@ NutriAdmin implements policies and procedures to maintain compliance and integri
    1. Version history of all NutriAdmin policies is done via GitHub.
    2. Backup storage of all policies is done with Microsoft's Azure DevOps.
 7. NutriAdmin tracks compliance with HIPAA and publishes results at [https://nutriadmin.com/hipaa](https://nutriadmin.com/hipaa). In order to track and measure adherence on an annual basis, NutriAdmin uses the following process to track HIPAA audits, both full and interim:
-    1. The Security Officer initiates the HIPAA audit activity by recording an entry in the Compliance Review Activity (CRA) Spreadsheet with ID #CRA-4.
+    1. The Security Officer initiates the HIPAA audit activity by recording a Task in the Compliance Review Activity (CRA) Spreadsheet with ID #CRA-4.
     2. The Security Officer or the Privacy Officer is assigned to own and manage the HIPAA activity.
-    3. Once the HIPAA activity is completed, the Security Officer records an entry in the Compliance Review Activity (CRA) Spreadsheet marking the task as done, adding any pertinent notes required.
+    3. Once the HIPAA activity is completed, the Security Officer records a Task in the Compliance Review Activity (CRA) Spreadsheet marking the Task as Closed, adding any pertinent notes required.
     5. Compliance with annual compliance assessments is monitored on a yearly basis using the Compliance Review Activity (CRA) Spreadsheet to assess compliance with above policy. This monitoring activity is recorded using ID #CRA-5.
 
 Additional documentation related to maintenance of policies is outlined in [§5.3.1](#5.3-security-officer).

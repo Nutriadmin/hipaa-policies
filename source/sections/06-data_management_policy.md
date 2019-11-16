@@ -14,7 +14,7 @@ Violation of this policy and its procedures by workforce members may result in c
 
 ## 6.2 Backup Policy and Procedures
 
-1. Perform daily snapshot backups of all systems that process, store, or transmit ePHI for all NutriAdmin Customers.
+1. An automatic configuration is in place to perform daily snapshot backups of all systems that process, store, or transmit ePHI for all NutriAdmin Customers.
 2. The NutriAdmin Ops Team is designated to be in charge of backups.
 3. Dev Ops Team members are trained and assigned to complete backups and manage the backup media.
 4. Document backups
@@ -22,5 +22,5 @@ Violation of this policy and its procedures by workforce members may result in c
    * Date & time of backup
    * Where backup stored (or to whom it was provided)
 5. Securely encrypt stored backups in a manner that protects them from loss or environmental damage.
-6. Test backups and document that files have been completely and accurately restored from the backup media every quarter. Results from these tests are recorded on the Azure DevOps Compliance Review Activity (CRA) Project to keep track of compliance with this policy.
-7. Monitor once a quarter that backups have been generated appropriately and track this activity on the Azure DevOps Compliance Review Activity (CRA) Project
+6. Backups are tested periodically during normal operations by the Dev Ops Team. Every time a Customer requests that data is restored from a backup, the Dev Ops team will verify as part of the request that backups contain accurate data that can be retrieved to meet the Customer's request. If any aspect of backups is found to be inadequate, then this is notified to the Security Office who will decide a course of action to rectify the problem.
+7. Monitor once a year that backups have been generated appropriately and track this activity on the Azure DevOps Compliance Review Activity (CRA) Spreadsheet with ID #CRA-8. If there have been no request for backup restoration by Customers during the previous year, then the Dev Ops team tests backups separately to ensure their proper functioning.
