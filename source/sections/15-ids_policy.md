@@ -13,4 +13,5 @@ In order to preserve the integrity of data that NutriAdmin stores, processes, or
 3. OSSEC monitors file system integrity and sends real time alerts when suspicious changes are made to the file system.
 4. Automatic monitoring is done to identify patterns that might signify the lack of availability of certain services and systems (DoS attacks).
 5. NutriAdmin firewalls monitor all incoming traffic to detect potential denial of service attacks. Suspected attack sources are blocked automatically. Additionally, our hosting provider actively monitors its network to detect denial of services attacks.
-6. All new firewall rules and configuration changes are tested before being pushed into production. All firewall and router rules are reviewed every quarter.
+6. All new firewall rules and configuration changes are tested before being pushed into production. All firewall and router rules are reviewed yearly and tracked in the Compliance Review Activity (CRA) Spreadsheed with ID #CRA-19.
+7. The above Procedure is monitored on a yearly basis using the Compliance Review Activity (CRA) Spreadsheet to assess compliance with above policy. This monitoring activity is recorded using ID #CRA-20.
