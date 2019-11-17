@@ -89,7 +89,7 @@ Access to NutriAdmin systems and application is limited for all users, including
 
 ## 7.8 Employee Workstation Use
 
-All workstations at NutriAdmin are company owned, and all are laptop Apple products running Mac OSX.
+All workstations at NutriAdmin are company owned, and all are either laptop Apple products running Mac OSX, One Plus smartphones running Android, or Desktops running Windows 10. The complete list of these devices, as well as relevant security details is maintained in the "Company owned devices" spreadsheet by the Security Office. This spreadsheet is updated when new devices are introduced or significant changes are made to existing devices. The spreadsheet and associated devices are monitored yearly and this monitoring activity is tracked on the Compliance Review Activity (CRA) spreadsheet with ID #CRA-29. 
 
 1. Workstations may not be used to engage in any activity that is illegal or is in violation of organization's policies.
 2. Access may not be used for transmitting, retrieving, or storage of any communications of a discriminatory or harassing nature or materials that are obscene or "X-rated". Harassment of any kind is prohibited. No messages with derogatory or inflammatory remarks about an individual's race, age, disability, religion, national origin, physical attributes, sexual preference, or health condition shall be transmitted or maintained. No abusive, hostile, profane, or offensive language is to be transmitted through organization's system.
