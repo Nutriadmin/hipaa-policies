@@ -14,7 +14,6 @@ NutriAdmin makes every effort to assure all 3rd party organizations are complian
 4. NutriAdmin has Service Level Agreements (SLAs) with Subcontractors with an agreed service arrangement addressing liability, service definitions, security controls, and aspects of services management.
    * Subcontractors must coordinate, manage, and communicate any changes to services provided to NutriAdmin.
    * Substantial changes to services provided by 3rd parties will invoke a Risk Assessment as described in [§4.2](#4.2-risk-management-policies).
-   * NutriAdmin utilizes monitoring tools to regularly evaluate Subcontractors against relevant SLAs.
 5. No NutriAdmin Customers or Partners have access outside of their own environment, meaning they cannot access, modify, or delete anything related to other 3rd parties.
 7. NutriAdmin maintains and annually reviews a list all current Partners and Subcontractors.
    * The list of current Partners and Subcontractors is maintained by the NutriAdmin Privacy Officer, includes details on all provided services (along with contact information), and is recorded in [§1.4](#1.4-nutriadmin-organizational-concepts).
