@@ -84,8 +84,8 @@ Access to NutriAdmin systems and application is limited for all users, including
 ## 7.7 Automatic Logoff
 
 1. Users are required to make information systems inaccessible by any other individual when unattended by the users (ex. by using a password protected screen saver or logging off the system).
-2. Information systems automatically log users off the systems after 15 minutes of inactivity.
-3. The Security Officer pre-approves exceptions to automatic log off requirements.
+2. Information systems automatically log users off the systems, or locks the session (requiring a password to login again) after 15 minutes of inactivity.
+3. The Security Officer pre-approves exceptions to automatic log off requirements. These exceptions are recorded in the "Automatic Log-off exceptions" document.
 
 ## 7.8 Employee Workstation Use
 
