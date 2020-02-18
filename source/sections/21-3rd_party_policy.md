@@ -33,7 +33,7 @@ NutriAdmin makes every effort to assure all 3rd party organizations are complian
 
 * **Microsoft Azure**. Azure is used to host the majority of the NutriAdmin infrastructure, including web apps and a database. Azure also stores backups, logs, analytics, and networking components.
 * **Google**. Google G Suite is used, amongst other things, for email communication via Gmail. Automated emails from the application never contain ePHI by default. Google analytics also records web traffic data when the user of the website accepts the relevant cookies.
-* **AWS**. Amazon Web Services (AWS) is used to keep encrypted backups of production data (as a double-redundancy mechanism, since backups are also kept in Azure). Additionally, AWS is used as part of the NutriAdmin application to send text codes for phone verification to access NutriAdmin's client portal.
+* **AWS**. Amazon Web Services (AWS) is used to keep encrypted backups of production data in S3 (as a double-redundancy mechanism, since backups are also kept in Azure). Additionally, AWS is used as part of the NutriAdmin application to send text codes for phone verification to access NutriAdmin's client portal.
 * **Twilio**. Twilio is used as a backup mechanism to send text codes for verification when clients access the client portal in the application.
 * **Stripe**. Stripe is used for payment processing for users of NutriAdmin. 
 
