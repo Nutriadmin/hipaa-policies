@@ -30,4 +30,4 @@ In terms of physical infrastructure, NutriAdmin only owns workstations (e.g. lap
 
 ## 1.5 Version Control
 
-Refer to the GitHub repository at [https://github.com/Nutriadmin/policies/](https://github.com/Nutriadmin/policies/) for the full version history of these policies.
+Refer to the Azure DevOps repository at [https://dev.azure.com/nutriadmin/NutriAdmin%20Policies](https://dev.azure.com/nutriadmin/NutriAdmin%20Policies) for the full version history of these policies.

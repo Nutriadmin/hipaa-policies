@@ -24,10 +24,9 @@ NutriAdmin implements policies and procedures to maintain compliance and integri
     5. If the policy change requires technical modifications to production systems, those changes are carried out by authorized personnel.
     6. The Security Officer documents the request, changes, and relevant notes in the Compliance Review Activity (CRA) Spreadsheet with ID #CRA-3.
 4. All policies are made accessible to all NutriAdmin workforce members. The current master policies are published at [https://dev.azure.com/nutriadmin/NutriAdmin%20Policies](https://dev.azure.com/nutriadmin/NutriAdmin%20Policies).
-   * The Security Officer communicates policy changes to all employees via email. These emails include a high-level description of the policy change using terminology appropriate for the target audience plus a link to the Github repository where the employees can see the changes in detail.
+   * The Security Officer communicates policy changes to all employees via email. These emails include a high-level description of the policy change using terminology appropriate for the target audience plus a link to the Azure DevOps repository where the employees can see the changes in detail.
 5. All policies, and associated documentation, are retained for 6 years from the date of its creation or the date when it last was in effect, whichever is later
-   1. Version history of all NutriAdmin policies is done via GitHub.
-   2. Backup storage of all policies is done with Microsoft's Azure DevOps.
+   1. Version history of all NutriAdmin policies is done via Azure DevOps.
 7. NutriAdmin tracks compliance with HIPAA and publishes results at [§24](#24-hipaa_mapping_to_nutriadmin_controls). In order to track and measure adherence on an annual basis, NutriAdmin uses the following process to track HIPAA audits, both full and interim:
     1. The Security Officer initiates the HIPAA audit activity by recording a Task in the Compliance Review Activity (CRA) Spreadsheet with ID #CRA-4.
     2. The Security Officer or the Privacy Officer is assigned to own and manage the HIPAA activity.
