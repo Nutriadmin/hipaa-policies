@@ -16,7 +16,7 @@ NutriAdmin makes every effort to assure all 3rd party organizations are complian
    * Substantial changes to services provided by 3rd parties will invoke a Risk Assessment as described in [§4.2](#4.2-risk-management-policies).
 5. No NutriAdmin Customers or Partners have access outside of their own environment, meaning they cannot access, modify, or delete anything related to other 3rd parties.
 7. NutriAdmin maintains and annually reviews a list all current Partners and Subcontractors.
-   * The list of current Partners and Subcontractors is maintained by the NutriAdmin Privacy Officer, includes details on all provided services (along with contact information), and is recorded in [§1.4](#1.4-nutriadmin-organizational-concepts).
+   * The list of current Partners and Subcontractors is maintained by the NutriAdmin Privacy Officer, includes details on all provided services (along with contact information), and is recorded in several places, including [§1.4](#1.4-nutriadmin-organizational-concepts), the list below, our GDPR policy, and the risk assessment.
    * The annual review of Partners and Subcontractors is conducted as a part of the security, compliance, and SLA review referenced below.
 8. NutriAdmin assesses security, compliance, and SLA requirements and considerations with all Partners and Subcontractors. This includes annual assessment of SOC2 Reports for all NutriAdmin infrastructure partners.
    * NutriAdmin leverages recurring calendar invites to assure reviews of all 3rd party services are performed annually. These reviews are performed by the NutriAdmin Security Officer and Privacy Officer. The process for reviewing 3rd party services is outlined below:
@@ -28,3 +28,13 @@ NutriAdmin makes every effort to assure all 3rd party organizations are complian
 9. Regular review is conducted as required by SLAs to assure security and compliance. These reviews include reports, audit trails, security events, operational issues, failures and disruptions, and identified issues are investigated and resolved in a reasonable and timely manner.
 10. Any changes to Partner and Subcontractor services and systems are reviewed before implementation.
 11. For all partners, NutriAdmin reviews activity annually to assure partners are in line with SLAs in contracts with NutriAdmin.
+
+## 21.3 List of NutriAdmin subcontractors which may have access to ePHI
+
+* **Microsoft Azure**. Azure is used to host the majority of the NutriAdmin infrastructure, including web apps and a database. Azure also stores backups, logs, analytics, and networking components.
+* **Google**. Google G Suite is used, amongst other things, for email communication via Gmail. Automated emails from the application never contain ePHI by default. Google analytics also records web traffic data when the user of the website accepts the relevant cookies.
+* **AWS**. Amazon Web Services (AWS) is used to keep encrypted backups of production data (as a double-redundancy mechanism, since backups are also kept in Azure). Additionally, AWS is used as part of the NutriAdmin application to send text codes for phone verification to access NutriAdmin's client portal.
+* **Twilio**. Twilio is used as a backup mechanism to send text codes for verification when clients access the client portal in the application.
+* **Stripe**. Stripe is used for payment processing for users of NutriAdmin. 
+
+More information about third parties can be found at [our GDPR information page](https://nutriadmin.com/docs/nutriadmin-gdpr-general-data-protection-regulation-information).

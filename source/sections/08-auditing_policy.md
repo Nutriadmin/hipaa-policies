@@ -30,14 +30,14 @@ This policy applies to all NutriAdmin systems that store, transmit, or process e
    * All connections to NutriAdmin are monitored. Access is limited to certain services, ports, and destinations. Exceptions to these rules, if created, are reviewed on an annual basis.
 2. NutriAdmin's auditing processes shall address access and activity at the following levels listed below. Auditing processes may address date and time of each log-on attempt, date and time of each log-off attempt, devices used, functions performed, etc.
    * Application: Application level audit trails generally monitor and log all user activities, including data accessed and modified and specific actions.
-   * System: System level audit trails generally monitor and log user activities, applications accessed, and other system defined specific actions. NutriAdmin utilizes file system monitoring from OSSEC to assure the integrity of file system data.
+   * System: System level audit trails generally monitor and log user activities, applications accessed, and other system defined specific actions. This information is kept by Microsoft and can be accessed via the Microsoft Azure Portal.
    * Network: Network level audit trails generally monitor information on what is operating, penetrations, and vulnerabilities.
 3. NutriAdmin shall log all incoming and outgoing traffic to into and out of its environment. This includes all successful and failed attempts at data access and editing. Data associated with this data will include origin, destination, time, and other relevant details that are available to NutriAdmin.
-4. NutriAdmin utilizes OSSEC to scan all systems for malicious and unauthorized software every 2 hours and at reboot of systems.
+4. NutriAdmin keeps uses managed services provided by Microsoft Azure, including Web-Apps, and CosmosDb. As such, these services abstract away the responsibility of managing servers or virtual machines. NutriAdmin and NutriAdmin employees don't have access to the underlying infrastructure running the database or app, and can monitor usage and/or configuration changes via the Azure Portal.
 5. NutriAdmin leverages process monitoring tools throughout its environment.
-6. NutriAdmin uses OSSEC to monitor the integrity of log files by utilizing OSSEC System Integrity Checking capabilities.
+6. NutriAdmin will use OSSEC to monitor the integrity of log files by utilizing OSSEC System Integrity Checking capabilities where appropriate (e.g. if managing a virtual machine or server directly).
 7. NutriAdmin shall identify "trigger events" or criteria that raise awareness of questionable conditions of viewing of confidential information. The "events" may be applied to the entire NutriAdmin Platform or may be specific to a Customer, partner, or business associate (See Listing of Potential Trigger Events below).
-8. In addition to trigger events, NutriAdmin utilizes OSSEC log correlation functionality to proactively identify and enable alerts based on log data.
+8. In addition to trigger events, NutriAdmin utilizes OSSEC log correlation functionality to proactively identify and enable alerts based on log data where appropriate.
 9. Application errors and suspicious activity logs are reviewed on an ongoing basis by the Privacy Officer.
 11. NutriAdmin's Security Officer and Privacy Officer are authorized to select and use auditing tools that are designed to detect network vulnerabilities and intrusions. Such tools are explicitly prohibited by others, including Customers and Partners, without the explicit authorization of the Security Officer. These tools may include, but are not limited to:
     * Scanning tools and devices;
@@ -90,7 +90,7 @@ This policy applies to all NutriAdmin systems that store, transmit, or process e
 1. Audit logs shall be protected from unauthorized access or modification, so the information they contain will be made available only if needed to evaluate a security incident or for routine audit activities as outlined in this policy.
 2. All audit logs are protected in transit and encrypted at rest to control access to the content of the logs.
 3. Audit logs shall only be accessible to selected qualified personnel.
-   * NutriAdmin logging servers include Elasticsearch, Logstash, and Kibana (ELK) as part of their baseline configuration to ease reviewing of audit log data. The ELK toolkit provides message summarization, reduction, and reporting functionality.
+   * NutriAdmin logging is done mainly using Azure Portal access logs, Azure Log workspaces, and Application insights.
 
 ## 8.7 Workforce Training, Education, Awareness and Responsibilities
 
@@ -113,7 +113,7 @@ This policy applies to all NutriAdmin systems that store, transmit, or process e
    * Organizational history and experience.
    * Available storage space.
 2. Reports summarizing audit activities shall be retained for a period of six years.
-3. Audit log data is currently retained for a one-year period. Beyond that, old log data may be deleted to release avaibale storage space.
+3. Audit log data is currently retained for either 30 days, up to a one-year period depending on the data type. Beyond that, old log data may be deleted to release avaibale storage space.
 
 ## 8.10 Potential Trigger Events
 

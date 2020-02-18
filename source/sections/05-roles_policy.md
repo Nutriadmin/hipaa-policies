@@ -27,7 +27,6 @@ The current NutriAdmin Privacy Officer is Diego Oliveira Sanchez ([diego@nutriad
 2. The Security Officer or designee maintains documentation of the training session materials and attendees for a minimum of six years.
 3. The training session focuses on, but is not limited to, the following subjects defined in NutriAdmin's security policies and procedures:
    1. HIPAA Privacy, Security, and Breach notification rules;
-   2. NIST Security Rules;
    3. Risk Management procedures and documentation;
    4. Auditing. NutriAdmin may monitor access and activities of all users;
    6. Users may not download software onto NutriAdmin's workstations and/or systems without prior approval from the Security Officer;

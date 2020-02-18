@@ -23,9 +23,9 @@ Access to NutriAdmin systems and application is limited for all users, including
      * User identities must be verified prior to granting access to new accounts.
      * Identity verification must be done in person where possible; for remote employees, identities must be verified over the phone.
      * For new accounts, the method used to verify the user's identity must be recorded on the notes for the task.
-  2. The Security Officer or Privacy Officer will grant access to systems as dictated by the employee's job title. If additional access is required outside of the minimum necessary to perform job functions, the requester must include a description of why the additional access is required as part of the access request.
-  3. Once the review is completed, the Security Officer or Privacy Officer approves or rejects the User Story. If the User Story is rejected, it goes back for further review and documentation.
-  4. If the review is approved, the Security Officer or Privacy Officer then marks the User Story as Closed, adding any pertinent notes required. The Security Officer or Privacy Officer then grants requested access.
+    2. The Security Officer or Privacy Officer will grant access to systems as dictated by the employee's job title. If additional access is required outside of the minimum necessary to perform job functions, the requester must include a description of why the additional access is required as part of the access request.
+    3. Once the review is completed, the Security Officer or Privacy Officer approves or rejects the Task. If the Task is rejected, it goes back for further review and documentation.
+    4. If the review is approved, the Security Officer or Privacy Officer then marks the Task as Done, adding any pertinent notes required. The Security Officer or Privacy Officer then grants requested access.
      * New accounts will be created with a temporary secure password that meets all requirements from [§7.12](#7.12-password-management), which must be changed on the initial login.
      * All password exchanges must occur over an authenticated channel.
      * For production systems, access grants are accomplished by adding the appropriate user account to the corresponding LDAP group.
@@ -37,13 +37,11 @@ Access to NutriAdmin systems and application is limited for all users, including
    2. The Security Officer is assigned to review levels of access for each NutriAdmin workforce member.
    3. If user access is found during review that is not in line with the least privilege principle, the process below is used to modify user access and notify the user of access changes. Once those steps are completed, the activity is then reviewed again.
    4. Once the review is completed, the Security Officer approves or rejects the Task. If the Task is rejected, it goes back for further review and documentation.
-   5. If the review is approved, the Security Officer then marks the User Story as Closed, adding any pertinent notes required.
+   5. If the review is approved, the Security Officer then marks the Task as Done, adding any pertinent notes required.
    6. Review of user access is monitored on an annual basis using the Compliance Review Activity (CRA) Spreadsheet to assess compliance with above policy. This monitoring activity is recorded using ID #CRA-11.
 5. Any NutriAdmin workforce member can request change of access using the process outlined in [§7.2 paragraph 1](#7.2-access-establishment-and-modification).
 6. Access to production systems is controlled using centralized user management and authentication.
-7. Temporary accounts are not used unless absolutely necessary for business purposes.
-   * Accounts are reviewed every 90 days to ensure temporary accounts are not left unnecessarily.
-   * Accounts that are inactive for over 90 days are removed.
+7. Temporary accounts are not used unless absolutely necessary for business purposes. Temporary accounts are deleted as soon as they are no longer needed.
 8. Privileged users must first access systems using standard, unique user accounts before switching to privileged users and performing privileged tasks.
    * For production systems, this is enforced by creating non-privileged user accounts that must invoke `sudo` to perform privileged tasks.
    * Rights for privileged accounts are granted by the Security Officer or Privacy Officer using the process outlined in [§7.2 paragraph 1](#7.2-access-establishment-and-modification).
@@ -79,7 +77,7 @@ Access to NutriAdmin systems and application is limited for all users, including
 2. Passwords requirements mandate strong password controls (see below).
 3. Passwords are not displayed at any time and are not transmitted or stored in plain text.
 4. Default accounts on all production systems, including root, are disabled.
-5. Shared accounts are not allowed within NutriAdmin systems or networks.
+5. Shared accounts are not allowed within NutriAdmin systems or networks unless entirely necessary to conduct normal business practices. In those instances, the sharing will be granted amongst the minium number of workforce members required.
 
 ## 7.7 Automatic Logoff
 
@@ -89,7 +87,7 @@ Access to NutriAdmin systems and application is limited for all users, including
 
 ## 7.8 Employee Workstation Use
 
-All workstations at NutriAdmin are company owned, and all are either laptop Apple products running Mac OSX, One Plus smartphones running Android, or Desktops running Windows 10. The complete list of these devices, as well as relevant security details is maintained in the "Company owned devices" spreadsheet by the Security Office. This spreadsheet is updated when new devices are introduced or significant changes are made to existing devices. The spreadsheet and associated devices are monitored yearly and this monitoring activity is tracked on the Compliance Review Activity (CRA) spreadsheet with ID #CRA-29. 
+All workstations at NutriAdmin are company owned, and all are either laptop Apple products running Mac OSX, One Plus smartphones running Android, or Desktops running Windows 10. The complete list of these devices, as well as relevant security details is maintained in the "Company owned devices" spreadsheet by the Security Office. The list of assets is also reviewed yearly during the Security Risk Assessment. This spreadsheet is updated when new devices are introduced or significant changes are made to existing devices. The spreadsheet and associated devices are monitored yearly and this monitoring activity is tracked on the Compliance Review Activity (CRA) spreadsheet with ID #CRA-29. 
 
 1. Workstations may not be used to engage in any activity that is illegal or is in violation of organization's policies.
 2. Access may not be used for transmitting, retrieving, or storage of any communications of a discriminatory or harassing nature or materials that are obscene or "X-rated". Harassment of any kind is prohibited. No messages with derogatory or inflammatory remarks about an individual's race, age, disability, religion, national origin, physical attributes, sexual preference, or health condition shall be transmitted or maintained. No abusive, hostile, profane, or offensive language is to be transmitted through organization's system.
@@ -97,7 +95,7 @@ All workstations at NutriAdmin are company owned, and all are either laptop Appl
 4. Solicitation of non-company business, or any use of organization's information systems/applications for personal gain is prohibited.
 5. Transmitted messages may not contain material that criticizes the organization, its providers, its employees, or others.
 6. Users may not misrepresent, obscure, suppress, or replace another user's identity in transmitted or stored messages.
-7. Workstation hard drives will be encrypted using FileVault 2.0 or equivalent.
+7. Workstation hard drives will be encrypted using FileVault 2.0 (for Mac), Bitlocker (in the case of Windows 10), or equivalent.
 8. All workstations have firewalls enabled to prevent unauthorized access unless explicitly granted.
 9. All workstations are to have the following messages added to the lock screen and login screen: *This computer is owned by NutriAdmin (Magosoft Ltd). By logging in, unlocking, and/or using this computer you acknowledge you have seen, and follow, these policies (https://nutriadmin.com/policy) and have completed this training (https://nutriadmin.com/training). Please contact us if you have problems with this - diego@nutriadmin.com*
 

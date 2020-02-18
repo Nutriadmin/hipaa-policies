@@ -14,13 +14,19 @@ SaaS Customers utilize hosted software and infrastructure from NutriAdmin to man
 
 ## 1.3 NutriAdmin Organizational Concepts
 
-The physical infrastructure environment is hosted at [Microsoft Azure](https://azure.microsoft.com/). The network components and supporting network infrastructure are contained within Azure infrastructure and managed by Microsoft. NutriAdmin does not have physical access into the network components. The NutriAdmin environment consists of nginx web servers; NodeJs application servers; MongoDb database servers; Logstash logging servers; Linux Ubuntu servers; OSSEC IDS services; and developer/support tool servers running on Linux Ubuntu.
+The physical infrastructure environment is hosted at [Microsoft Azure](https://azure.microsoft.com/). The network components and supporting network infrastructure are contained within Azure infrastructure and managed by Microsoft. NutriAdmin does not have physical access into the network components. The NutriAdmin environment consists mainly of Azure Web Apps, a CosmosDB database, Azure Logging, and an Application Gateway. We use Azure compliant managed solutions like Web-Apps as opposed to hosting custom servers when possible. This delegates many security considerations (e.g. physical safeguards) to Microsoft, who offers security guarantees.
 
-Within the NutriAdmin Platform on Azure, all data transmission is encrypted and all hard drive partitions containing ePHI are encrypted so data at rest is also encrypted; this applies to all servers - those hosting databases, logs, application servers, etc.
+Within the NutriAdmin Platform on Azure, data transmission over the internet is encrypted, and data transmission within our private networks is also encrypted when deemed appropriate and reasonable. All hard drive partitions, databases, or blob storage containing ePHI are encrypted so data at rest is also encrypted; this applies to our CosmosDb account where the bulk of all the ePHI we manage is stored.
 
-NutriAdmin has implemented strict logical access controls so that only authorized personnel are given access to the internal management servers. The environment is configured so that data is transmitted from the web server to the application server over a TLS encrypted session.
+NutriAdmin has implemented strict logical access controls so that only authorized personnel are given access to the infrastructure. The environment is configured so that data is transmitted from the web server to the application server over a TLS encrypted session.
 
 Access to the internal database is restricted to a limited number of personnel and strictly controlled to only those personnel with a business-justified reason.
+
+## 1.4 Summary of NutriAdmin infrastructure
+
+NutriAdmin aims to use managed solutions from Microsoft that are covered under their HIPAA BAA with NutriAdmin. This abstracts away the burden of many of the physical and organizational security measures required for production systems and effectively delegates it to Microsoft. For example, NutriAdmin uses a managed database (CosmosDB) as opposed to hosting a custom solution. Microsoft offers many guarantees under SLAs and the HIPAA BAA regarding this database.
+
+In terms of physical infrastructure, NutriAdmin only owns workstations (e.g. laptops, desktop computers, smartphones). All production systems that may contain ePHI are hosted by Microsoft Azure. NutriAdmin systems do not store or maintain ePHI, and they may only rarely have access to ePHI when working to resolve a technical support issue as requested by a SaaS customer.
 
 ## 1.5 Version Control
 

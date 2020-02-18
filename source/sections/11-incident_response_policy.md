@@ -52,10 +52,10 @@ NutriAdmin employees must report any unauthorized or suspicious activity seen on
    3. Phone call;
    5. Secure Chat.
    6. Anonymously through workforce members desired channels.
-2. The individual receiving the report facilitates completion of an [Incident Identification form](sections/IH-Identification.pdf) and notifies the Security Officer (if not already done).
+2. The individual receiving the report notifies the Security Officer (if not already done) and communicates any relevant information.
 3. The Security Officer determines if the issue is an Event, Precursor, Indication, or Incident.
    1. If the issue is an event, indication, or precursor the Security Officer forwards it to the appropriate resource for resolution.
-      1. Non-Technical Event (minor infringement): the Security Officer completes a [SIR Form](sections/sir-form.doc) and investigates the incident.
+      1. Non-Technical Event (minor infringement): the Security Officer investigates the incident and makes a written record if appropriate and relevant.
       2. Technical Event: Assign the issue to an IT resource for resolution. This resource may also be a contractor or outsourced technical resource, in the event of a small office or lack of expertise in the area.
    2. If the issue is a security incident the Security Officer activates the Security Incident Response Team (SIRT) and notifies senior management.
        1. If a non-technical security incident is discovered the SIRT completes the investigation, implements preventative measures, and resolves the security incident.
@@ -63,7 +63,6 @@ NutriAdmin employees must report any unauthorized or suspicious activity seen on
        3. If the issue is a technical security incident, commence to Phase II: Containment.
        4. The Containment, Eradication, and Recovery Phases are highly technical. It is important to have them completed by a highly qualified technical security resource with oversight by the SIRT team.
        5. Each individual on the SIRT and the technical security resource document all measures taken during each phase, including the start and end times of all efforts.
-       6. The lead member of the SIRT team facilitates initiation of a [SIR Form](sections/sir-form.doc) or an [Incident Survey Form](sections/IH-Survey.pdf). The intent of the SIR form is to provide a summary of all events, efforts, and conclusions of each Phase of this policy and procedures.
 3. The Security Officer, Privacy Officer, or NutriAdmin representative appointed notifies any affected Customers and Partners. If no Customers and Partners are affected, notification is at the discretion of the Security and Privacy Officer.
 4. In the case of a threat identified, the Security Officer is to form a team to investigate and involve necessary resources, both internal to NutriAdmin and potentially external.
 
@@ -81,7 +80,7 @@ In this Phase, NutriAdmin's IT department attempts to contain the security incid
    5. Change the password(s) to the affected system(s).
    6. Determine whether it is safe to continue operations with the affect system(s).
    7. If it is safe, allow the system to continue to function;
-      1. Complete any documentation relative to the security incident on the [SIR Form](sections/sir-form.doc).
+      1. Complete any documentation relative to the security incident.
       2. Move to Phase V, Follow-up.
    8. If it is NOT safe to allow the system to continue operations, discontinue the system(s) operation and move to Phase III, Eradication.
    9. The individual completing this phase provides written communication to the SIRT.
@@ -99,7 +98,7 @@ The Eradication Phase represents the SIRT's effort to remove the cause, and the 
    3. Remediation ("fixing") any security issues within the affected system, such as removing unused services/general host hardening techniques.
 3. Conduct a detailed vulnerability assessment to verify all the holes/gaps that can be exploited have been addressed.
    1. If additional issues or symptoms are identified, take appropriate preventative measures to eliminate or minimize potential future compromises.
-4. Complete the [Eradication Form](sections/IH-Eradication.pdf).
+4. Document changes made if appropriate and relevant.
 5. Update the documentation with the information learned from the vulnerability assessment, including the cause, symptoms, and the method used to fix the problem with the affected system(s).
 6. Apprise Senior Management of the progress.
 7. Continue to notify affected Customers and Partners with relevant updates as needed.
@@ -124,7 +123,7 @@ The Recovery Phase represents the SIRT's effort to restore the affected system(s
 The Follow-up Phase represents the review of the security incident to look for "lessons learned" and to determine whether the process that was taken could have been improved in any way. It is recommended all security incidents be reviewed shortly after resolution to determine where response could be improved. Timeframes may extend to one to two weeks post-incident.
 
 1. Responders to the security incident (SIRT Team and technical security resource) meet to review the documentation collected during the security incident.
-2. Create a "lessons learned" document and attach it to the completed [SIR Form](sections/sir-form.doc).
+2. Create a "lessons learned" document if appropriate.
    1. Evaluate the cost and impact of the security incident to NutriAdmin using the documents provided by the SIRT and the technical security resource.
    2. Determine what could be improved.
    3. Communicate these findings to Senior Management for approval and for implementation of any recommendations made post-review of the security incident.

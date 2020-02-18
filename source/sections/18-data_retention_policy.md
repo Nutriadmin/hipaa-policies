@@ -12,3 +12,4 @@ Despite not being a requirement within HIPAA, NutriAdmin understands and appreci
 * Once a Customer ceases to be a Customer, as defined below, the following steps are
   1. Customer is sent a notice via email of change of standing, and given the option to download their client data stored in NutriAdmin.
   2. NutriAdmin will continue to store all Customer data indefinitely unless the client sends a written request for the data to be permanently erased.
+  3. For security and performance reasons, NutriAdmin reserves the right to delete stale customer data after a year of cancellation of a SaaS customer. The customer would be notified before deletion and given the chance to export the data or to reactivate the subscription before any irreversible action is taken.
