@@ -28,7 +28,7 @@ NutriAdmin implements policies and procedures to maintain compliance and integri
 5. All policies, and associated documentation, are retained for 6 years from the date of its creation or the date when it last was in effect, whichever is later
    1. Version history of all NutriAdmin policies is done via GitHub.
    2. Backup storage of all policies is done with Microsoft's Azure DevOps.
-7. NutriAdmin tracks compliance with HIPAA and publishes results at [https://nutriadmin.com/hipaa](https://nutriadmin.com/hipaa). In order to track and measure adherence on an annual basis, NutriAdmin uses the following process to track HIPAA audits, both full and interim:
+7. NutriAdmin tracks compliance with HIPAA and publishes results at [§24](#24-hipaa_mapping_to_nutriadmin_controls). In order to track and measure adherence on an annual basis, NutriAdmin uses the following process to track HIPAA audits, both full and interim:
     1. The Security Officer initiates the HIPAA audit activity by recording a Task in the Compliance Review Activity (CRA) Spreadsheet with ID #CRA-4.
     2. The Security Officer or the Privacy Officer is assigned to own and manage the HIPAA activity.
     3. Once the HIPAA activity is completed, the Security Officer records a Task in the Compliance Review Activity (CRA) Spreadsheet marking the Task as Closed, adding any pertinent notes required.
