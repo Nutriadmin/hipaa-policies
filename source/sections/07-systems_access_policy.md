@@ -97,7 +97,7 @@ All workstations at NutriAdmin are company owned, and all are either laptop Appl
 6. Users may not misrepresent, obscure, suppress, or replace another user's identity in transmitted or stored messages.
 7. Workstation hard drives will be encrypted using FileVault 2.0 (for Mac), Bitlocker (in the case of Windows 10), or equivalent.
 8. All workstations have firewalls enabled to prevent unauthorized access unless explicitly granted.
-9. All workstations are to have the following messages added to the lock screen and login screen: *This computer is owned by NutriAdmin (Magosoft Ltd). By logging in, unlocking, and/or using this computer you acknowledge you have seen, and follow, these policies (https://nutriadmin.com/policy) and have completed this training (https://nutriadmin.com/training). Please contact us if you have problems with this - diego@nutriadmin.com*
+9. All workstations are to have the following messages added to the lock screen and login screen: *This computer is owned by NutriAdmin (Magosoft Ltd). By logging in, unlocking, and/or using this computer you acknowledge you have seen, and follow, these policies (https://dev.azure.com/nutriadmin/NutriAdmin%20Policies) and have completed this training (https://nutriadmin.com/training). Please contact us if you have problems with this - diego@nutriadmin.com*
 
 ## 7.9 Wireless Access Use
 			
